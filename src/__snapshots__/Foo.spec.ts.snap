@@ -1,0 +1,2169 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Foo > macros(h 70 intensa gain) 1`] = `
+{
+  "carbs": 294,
+  "fats": 56,
+  "proteins": 140,
+}
+`;
+
+exports[`Foo > macros(h 70 intensa lost) 1`] = `
+{
+  "carbs": 224,
+  "fats": 49,
+  "proteins": 154,
+}
+`;
+
+exports[`Foo > macros(h 70 intensa maintain) 1`] = `
+{
+  "carbs": 245,
+  "fats": 70,
+  "proteins": 98,
+}
+`;
+
+exports[`Foo > macros(h 70 ligera gain) 1`] = `
+{
+  "carbs": 245,
+  "fats": 49,
+  "proteins": 98,
+}
+`;
+
+exports[`Foo > macros(h 70 ligera lost) 1`] = `
+{
+  "carbs": 175,
+  "fats": 42,
+  "proteins": 112,
+}
+`;
+
+exports[`Foo > macros(h 70 ligera maintain) 1`] = `
+{
+  "carbs": 175,
+  "fats": 56,
+  "proteins": 84,
+}
+`;
+
+exports[`Foo > macros(h 70 moderada gain) 1`] = `
+{
+  "carbs": 273,
+  "fats": 56,
+  "proteins": 112,
+}
+`;
+
+exports[`Foo > macros(h 70 moderada lost) 1`] = `
+{
+  "carbs": 196,
+  "fats": 42,
+  "proteins": 140,
+}
+`;
+
+exports[`Foo > macros(h 70 moderada maintain) 1`] = `
+{
+  "carbs": 210,
+  "fats": 56,
+  "proteins": 84,
+}
+`;
+
+exports[`Foo > macros(h 70 muy intensa gain) 1`] = `
+{
+  "carbs": 315,
+  "fats": 70,
+  "proteins": 154,
+}
+`;
+
+exports[`Foo > macros(h 70 muy intensa lost) 1`] = `
+{
+  "carbs": 245,
+  "fats": 49,
+  "proteins": 175,
+}
+`;
+
+exports[`Foo > macros(h 70 muy intensa maintain) 1`] = `
+{
+  "carbs": 280,
+  "fats": 70,
+  "proteins": 112,
+}
+`;
+
+exports[`Foo > macros(h 70 sedentario gain) 1`] = `
+{
+  "carbs": 210,
+  "fats": 49,
+  "proteins": 84,
+}
+`;
+
+exports[`Foo > macros(h 70 sedentario lost) 1`] = `
+{
+  "carbs": 140,
+  "fats": 42,
+  "proteins": 84,
+}
+`;
+
+exports[`Foo > macros(h 70 sedentario maintain) 1`] = `
+{
+  "carbs": 175,
+  "fats": 56,
+  "proteins": 84,
+}
+`;
+
+exports[`Foo > macros(h 80 intensa gain) => %d %d %d 1`] = `
+{
+  "carbs": 336,
+  "fats": 64,
+  "proteins": 160,
+}
+`;
+
+exports[`Foo > macros(h 80 intensa gain) 1`] = `
+{
+  "carbs": 336,
+  "fats": 64,
+  "proteins": 160,
+}
+`;
+
+exports[`Foo > macros(h 80 intensa lost) => %d %d %d 1`] = `
+{
+  "carbs": 256,
+  "fats": 56,
+  "proteins": 176,
+}
+`;
+
+exports[`Foo > macros(h 80 intensa lost) 1`] = `
+{
+  "carbs": 256,
+  "fats": 56,
+  "proteins": 176,
+}
+`;
+
+exports[`Foo > macros(h 80 intensa maintain) => %d %d %d 1`] = `
+{
+  "carbs": 280,
+  "fats": 80,
+  "proteins": 112,
+}
+`;
+
+exports[`Foo > macros(h 80 intensa maintain) 1`] = `
+{
+  "carbs": 280,
+  "fats": 80,
+  "proteins": 112,
+}
+`;
+
+exports[`Foo > macros(h 80 ligera gain) => %d %d %d 1`] = `
+{
+  "carbs": 280,
+  "fats": 56,
+  "proteins": 112,
+}
+`;
+
+exports[`Foo > macros(h 80 ligera gain) 1`] = `
+{
+  "carbs": 280,
+  "fats": 56,
+  "proteins": 112,
+}
+`;
+
+exports[`Foo > macros(h 80 ligera lost) => %d %d %d 1`] = `
+{
+  "carbs": 200,
+  "fats": 48,
+  "proteins": 128,
+}
+`;
+
+exports[`Foo > macros(h 80 ligera lost) 1`] = `
+{
+  "carbs": 200,
+  "fats": 48,
+  "proteins": 128,
+}
+`;
+
+exports[`Foo > macros(h 80 ligera maintain) => %d %d %d 1`] = `
+{
+  "carbs": 200,
+  "fats": 64,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(h 80 ligera maintain) 1`] = `
+{
+  "carbs": 200,
+  "fats": 64,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(h 80 moderada gain) => %d %d %d 1`] = `
+{
+  "carbs": 312,
+  "fats": 64,
+  "proteins": 128,
+}
+`;
+
+exports[`Foo > macros(h 80 moderada gain) 1`] = `
+{
+  "carbs": 312,
+  "fats": 64,
+  "proteins": 128,
+}
+`;
+
+exports[`Foo > macros(h 80 moderada lost) => %d %d %d 1`] = `
+{
+  "carbs": 224,
+  "fats": 48,
+  "proteins": 160,
+}
+`;
+
+exports[`Foo > macros(h 80 moderada lost) 1`] = `
+{
+  "carbs": 224,
+  "fats": 48,
+  "proteins": 160,
+}
+`;
+
+exports[`Foo > macros(h 80 moderada maintain) => %d %d %d 1`] = `
+{
+  "carbs": 240,
+  "fats": 64,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(h 80 moderada maintain) 1`] = `
+{
+  "carbs": 240,
+  "fats": 64,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(h 80 muy intensa gain) => %d %d %d 1`] = `
+{
+  "carbs": 360,
+  "fats": 80,
+  "proteins": 176,
+}
+`;
+
+exports[`Foo > macros(h 80 muy intensa gain) 1`] = `
+{
+  "carbs": 360,
+  "fats": 80,
+  "proteins": 176,
+}
+`;
+
+exports[`Foo > macros(h 80 muy intensa lost) => %d %d %d 1`] = `
+{
+  "carbs": 280,
+  "fats": 56,
+  "proteins": 200,
+}
+`;
+
+exports[`Foo > macros(h 80 muy intensa lost) 1`] = `
+{
+  "carbs": 280,
+  "fats": 56,
+  "proteins": 200,
+}
+`;
+
+exports[`Foo > macros(h 80 muy intensa maintain) => %d %d %d 1`] = `
+{
+  "carbs": 320,
+  "fats": 80,
+  "proteins": 128,
+}
+`;
+
+exports[`Foo > macros(h 80 muy intensa maintain) 1`] = `
+{
+  "carbs": 320,
+  "fats": 80,
+  "proteins": 128,
+}
+`;
+
+exports[`Foo > macros(h 80 sedentario gain) => %d %d %d 1`] = `
+{
+  "carbs": 240,
+  "fats": 56,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(h 80 sedentario gain) 1`] = `
+{
+  "carbs": 240,
+  "fats": 56,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(h 80 sedentario lost) => %d %d %d 1`] = `
+{
+  "carbs": 160,
+  "fats": 48,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(h 80 sedentario lost) 1`] = `
+{
+  "carbs": 160,
+  "fats": 48,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(h 80 sedentario maintain) => %d %d %d 1`] = `
+{
+  "carbs": 200,
+  "fats": 64,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(h 80 sedentario maintain) 1`] = `
+{
+  "carbs": 200,
+  "fats": 64,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(h 90 intensa gain) 1`] = `
+{
+  "carbs": 378,
+  "fats": 72,
+  "proteins": 180,
+}
+`;
+
+exports[`Foo > macros(h 90 intensa lost) 1`] = `
+{
+  "carbs": 288,
+  "fats": 62.99999999999999,
+  "proteins": 198.00000000000003,
+}
+`;
+
+exports[`Foo > macros(h 90 intensa maintain) 1`] = `
+{
+  "carbs": 315,
+  "fats": 90,
+  "proteins": 125.99999999999999,
+}
+`;
+
+exports[`Foo > macros(h 90 ligera gain) 1`] = `
+{
+  "carbs": 315,
+  "fats": 62.99999999999999,
+  "proteins": 125.99999999999999,
+}
+`;
+
+exports[`Foo > macros(h 90 ligera lost) 1`] = `
+{
+  "carbs": 225,
+  "fats": 54,
+  "proteins": 144,
+}
+`;
+
+exports[`Foo > macros(h 90 ligera maintain) 1`] = `
+{
+  "carbs": 225,
+  "fats": 72,
+  "proteins": 108,
+}
+`;
+
+exports[`Foo > macros(h 90 moderada gain) 1`] = `
+{
+  "carbs": 351,
+  "fats": 72,
+  "proteins": 144,
+}
+`;
+
+exports[`Foo > macros(h 90 moderada lost) 1`] = `
+{
+  "carbs": 251.99999999999997,
+  "fats": 54,
+  "proteins": 180,
+}
+`;
+
+exports[`Foo > macros(h 90 moderada maintain) 1`] = `
+{
+  "carbs": 270,
+  "fats": 72,
+  "proteins": 108,
+}
+`;
+
+exports[`Foo > macros(h 90 muy intensa gain) 1`] = `
+{
+  "carbs": 405,
+  "fats": 90,
+  "proteins": 198.00000000000003,
+}
+`;
+
+exports[`Foo > macros(h 90 muy intensa lost) 1`] = `
+{
+  "carbs": 315,
+  "fats": 62.99999999999999,
+  "proteins": 225,
+}
+`;
+
+exports[`Foo > macros(h 90 muy intensa maintain) 1`] = `
+{
+  "carbs": 360,
+  "fats": 90,
+  "proteins": 144,
+}
+`;
+
+exports[`Foo > macros(h 90 sedentario gain) 1`] = `
+{
+  "carbs": 270,
+  "fats": 62.99999999999999,
+  "proteins": 108,
+}
+`;
+
+exports[`Foo > macros(h 90 sedentario lost) 1`] = `
+{
+  "carbs": 180,
+  "fats": 54,
+  "proteins": 108,
+}
+`;
+
+exports[`Foo > macros(h 90 sedentario maintain) 1`] = `
+{
+  "carbs": 225,
+  "fats": 72,
+  "proteins": 108,
+}
+`;
+
+exports[`Foo > macros(h 100 intensa gain) 1`] = `
+{
+  "carbs": 420,
+  "fats": 80,
+  "proteins": 200,
+}
+`;
+
+exports[`Foo > macros(h 100 intensa lost) 1`] = `
+{
+  "carbs": 320,
+  "fats": 70,
+  "proteins": 220.00000000000003,
+}
+`;
+
+exports[`Foo > macros(h 100 intensa maintain) 1`] = `
+{
+  "carbs": 350,
+  "fats": 100,
+  "proteins": 140,
+}
+`;
+
+exports[`Foo > macros(h 100 ligera gain) 1`] = `
+{
+  "carbs": 350,
+  "fats": 70,
+  "proteins": 140,
+}
+`;
+
+exports[`Foo > macros(h 100 ligera lost) 1`] = `
+{
+  "carbs": 250,
+  "fats": 60,
+  "proteins": 160,
+}
+`;
+
+exports[`Foo > macros(h 100 ligera maintain) 1`] = `
+{
+  "carbs": 250,
+  "fats": 80,
+  "proteins": 120,
+}
+`;
+
+exports[`Foo > macros(h 100 moderada gain) 1`] = `
+{
+  "carbs": 390,
+  "fats": 80,
+  "proteins": 160,
+}
+`;
+
+exports[`Foo > macros(h 100 moderada lost) 1`] = `
+{
+  "carbs": 280,
+  "fats": 60,
+  "proteins": 200,
+}
+`;
+
+exports[`Foo > macros(h 100 moderada maintain) 1`] = `
+{
+  "carbs": 300,
+  "fats": 80,
+  "proteins": 120,
+}
+`;
+
+exports[`Foo > macros(h 100 muy intensa gain) 1`] = `
+{
+  "carbs": 450,
+  "fats": 100,
+  "proteins": 220.00000000000003,
+}
+`;
+
+exports[`Foo > macros(h 100 muy intensa lost) 1`] = `
+{
+  "carbs": 350,
+  "fats": 70,
+  "proteins": 250,
+}
+`;
+
+exports[`Foo > macros(h 100 muy intensa maintain) 1`] = `
+{
+  "carbs": 400,
+  "fats": 100,
+  "proteins": 160,
+}
+`;
+
+exports[`Foo > macros(h 100 sedentario gain) 1`] = `
+{
+  "carbs": 300,
+  "fats": 70,
+  "proteins": 120,
+}
+`;
+
+exports[`Foo > macros(h 100 sedentario lost) 1`] = `
+{
+  "carbs": 200,
+  "fats": 60,
+  "proteins": 120,
+}
+`;
+
+exports[`Foo > macros(h 100 sedentario maintain) 1`] = `
+{
+  "carbs": 250,
+  "fats": 80,
+  "proteins": 120,
+}
+`;
+
+exports[`Foo > macros(m 70 intensa gain) 1`] = `
+{
+  "carbs": 294,
+  "fats": 70,
+  "proteins": 140,
+}
+`;
+
+exports[`Foo > macros(m 70 intensa lost) 1`] = `
+{
+  "carbs": 224,
+  "fats": 63,
+  "proteins": 154,
+}
+`;
+
+exports[`Foo > macros(m 70 intensa maintain) 1`] = `
+{
+  "carbs": 245,
+  "fats": 77,
+  "proteins": 98,
+}
+`;
+
+exports[`Foo > macros(m 70 ligera gain) 1`] = `
+{
+  "carbs": 245,
+  "fats": 56,
+  "proteins": 98,
+}
+`;
+
+exports[`Foo > macros(m 70 ligera lost) 1`] = `
+{
+  "carbs": 175,
+  "fats": 56,
+  "proteins": 112,
+}
+`;
+
+exports[`Foo > macros(m 70 ligera maintain) 1`] = `
+{
+  "carbs": 175,
+  "fats": 70,
+  "proteins": 84,
+}
+`;
+
+exports[`Foo > macros(m 70 moderada gain) 1`] = `
+{
+  "carbs": 273,
+  "fats": 70,
+  "proteins": 112,
+}
+`;
+
+exports[`Foo > macros(m 70 moderada lost) 1`] = `
+{
+  "carbs": 196,
+  "fats": 56,
+  "proteins": 140,
+}
+`;
+
+exports[`Foo > macros(m 70 moderada maintain) 1`] = `
+{
+  "carbs": 210,
+  "fats": 70,
+  "proteins": 84,
+}
+`;
+
+exports[`Foo > macros(m 70 muy intensa gain) 1`] = `
+{
+  "carbs": 315,
+  "fats": 84,
+  "proteins": 154,
+}
+`;
+
+exports[`Foo > macros(m 70 muy intensa lost) 1`] = `
+{
+  "carbs": 245,
+  "fats": 63,
+  "proteins": 175,
+}
+`;
+
+exports[`Foo > macros(m 70 muy intensa maintain) 1`] = `
+{
+  "carbs": 280,
+  "fats": 77,
+  "proteins": 112,
+}
+`;
+
+exports[`Foo > macros(m 70 sedentario gain) 1`] = `
+{
+  "carbs": 210,
+  "fats": 56,
+  "proteins": 84,
+}
+`;
+
+exports[`Foo > macros(m 70 sedentario lost) 1`] = `
+{
+  "carbs": 140,
+  "fats": 56,
+  "proteins": 84,
+}
+`;
+
+exports[`Foo > macros(m 70 sedentario maintain) 1`] = `
+{
+  "carbs": 175,
+  "fats": 70,
+  "proteins": 84,
+}
+`;
+
+exports[`Foo > macros(m 80 intensa gain) => %d %d %d 1`] = `
+{
+  "carbs": 336,
+  "fats": 80,
+  "proteins": 160,
+}
+`;
+
+exports[`Foo > macros(m 80 intensa gain) 1`] = `
+{
+  "carbs": 336,
+  "fats": 80,
+  "proteins": 160,
+}
+`;
+
+exports[`Foo > macros(m 80 intensa lost) => %d %d %d 1`] = `
+{
+  "carbs": 256,
+  "fats": 72,
+  "proteins": 176,
+}
+`;
+
+exports[`Foo > macros(m 80 intensa lost) 1`] = `
+{
+  "carbs": 256,
+  "fats": 72,
+  "proteins": 176,
+}
+`;
+
+exports[`Foo > macros(m 80 intensa maintain) => %d %d %d 1`] = `
+{
+  "carbs": 280,
+  "fats": 88,
+  "proteins": 112,
+}
+`;
+
+exports[`Foo > macros(m 80 intensa maintain) 1`] = `
+{
+  "carbs": 280,
+  "fats": 88,
+  "proteins": 112,
+}
+`;
+
+exports[`Foo > macros(m 80 ligera gain) => %d %d %d 1`] = `
+{
+  "carbs": 280,
+  "fats": 64,
+  "proteins": 112,
+}
+`;
+
+exports[`Foo > macros(m 80 ligera gain) 1`] = `
+{
+  "carbs": 280,
+  "fats": 64,
+  "proteins": 112,
+}
+`;
+
+exports[`Foo > macros(m 80 ligera lost) => %d %d %d 1`] = `
+{
+  "carbs": 200,
+  "fats": 64,
+  "proteins": 128,
+}
+`;
+
+exports[`Foo > macros(m 80 ligera lost) 1`] = `
+{
+  "carbs": 200,
+  "fats": 64,
+  "proteins": 128,
+}
+`;
+
+exports[`Foo > macros(m 80 ligera maintain) => %d %d %d 1`] = `
+{
+  "carbs": 200,
+  "fats": 80,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(m 80 ligera maintain) 1`] = `
+{
+  "carbs": 200,
+  "fats": 80,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(m 80 moderada gain) => %d %d %d 1`] = `
+{
+  "carbs": 312,
+  "fats": 80,
+  "proteins": 128,
+}
+`;
+
+exports[`Foo > macros(m 80 moderada gain) 1`] = `
+{
+  "carbs": 312,
+  "fats": 80,
+  "proteins": 128,
+}
+`;
+
+exports[`Foo > macros(m 80 moderada lost) => %d %d %d 1`] = `
+{
+  "carbs": 224,
+  "fats": 64,
+  "proteins": 160,
+}
+`;
+
+exports[`Foo > macros(m 80 moderada lost) 1`] = `
+{
+  "carbs": 224,
+  "fats": 64,
+  "proteins": 160,
+}
+`;
+
+exports[`Foo > macros(m 80 moderada maintain) => %d %d %d 1`] = `
+{
+  "carbs": 240,
+  "fats": 80,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(m 80 moderada maintain) 1`] = `
+{
+  "carbs": 240,
+  "fats": 80,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(m 80 muy intensa gain) => %d %d %d 1`] = `
+{
+  "carbs": 360,
+  "fats": 96,
+  "proteins": 176,
+}
+`;
+
+exports[`Foo > macros(m 80 muy intensa gain) 1`] = `
+{
+  "carbs": 360,
+  "fats": 96,
+  "proteins": 176,
+}
+`;
+
+exports[`Foo > macros(m 80 muy intensa lost) => %d %d %d 1`] = `
+{
+  "carbs": 280,
+  "fats": 72,
+  "proteins": 200,
+}
+`;
+
+exports[`Foo > macros(m 80 muy intensa lost) 1`] = `
+{
+  "carbs": 280,
+  "fats": 72,
+  "proteins": 200,
+}
+`;
+
+exports[`Foo > macros(m 80 muy intensa maintain) => %d %d %d 1`] = `
+{
+  "carbs": 320,
+  "fats": 88,
+  "proteins": 128,
+}
+`;
+
+exports[`Foo > macros(m 80 muy intensa maintain) 1`] = `
+{
+  "carbs": 320,
+  "fats": 88,
+  "proteins": 128,
+}
+`;
+
+exports[`Foo > macros(m 80 sedentario gain) => %d %d %d 1`] = `
+{
+  "carbs": 240,
+  "fats": 64,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(m 80 sedentario gain) 1`] = `
+{
+  "carbs": 240,
+  "fats": 64,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(m 80 sedentario lost) => %d %d %d 1`] = `
+{
+  "carbs": 160,
+  "fats": 64,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(m 80 sedentario lost) 1`] = `
+{
+  "carbs": 160,
+  "fats": 64,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(m 80 sedentario maintain) => %d %d %d 1`] = `
+{
+  "carbs": 200,
+  "fats": 80,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(m 80 sedentario maintain) 1`] = `
+{
+  "carbs": 200,
+  "fats": 80,
+  "proteins": 96,
+}
+`;
+
+exports[`Foo > macros(m 90 intensa gain) 1`] = `
+{
+  "carbs": 378,
+  "fats": 90,
+  "proteins": 180,
+}
+`;
+
+exports[`Foo > macros(m 90 intensa lost) 1`] = `
+{
+  "carbs": 288,
+  "fats": 81,
+  "proteins": 198.00000000000003,
+}
+`;
+
+exports[`Foo > macros(m 90 intensa maintain) 1`] = `
+{
+  "carbs": 315,
+  "fats": 99.00000000000001,
+  "proteins": 125.99999999999999,
+}
+`;
+
+exports[`Foo > macros(m 90 ligera gain) 1`] = `
+{
+  "carbs": 315,
+  "fats": 72,
+  "proteins": 125.99999999999999,
+}
+`;
+
+exports[`Foo > macros(m 90 ligera lost) 1`] = `
+{
+  "carbs": 225,
+  "fats": 72,
+  "proteins": 144,
+}
+`;
+
+exports[`Foo > macros(m 90 ligera maintain) 1`] = `
+{
+  "carbs": 225,
+  "fats": 90,
+  "proteins": 108,
+}
+`;
+
+exports[`Foo > macros(m 90 moderada gain) 1`] = `
+{
+  "carbs": 351,
+  "fats": 90,
+  "proteins": 144,
+}
+`;
+
+exports[`Foo > macros(m 90 moderada lost) 1`] = `
+{
+  "carbs": 251.99999999999997,
+  "fats": 72,
+  "proteins": 180,
+}
+`;
+
+exports[`Foo > macros(m 90 moderada maintain) 1`] = `
+{
+  "carbs": 270,
+  "fats": 90,
+  "proteins": 108,
+}
+`;
+
+exports[`Foo > macros(m 90 muy intensa gain) 1`] = `
+{
+  "carbs": 405,
+  "fats": 108,
+  "proteins": 198.00000000000003,
+}
+`;
+
+exports[`Foo > macros(m 90 muy intensa lost) 1`] = `
+{
+  "carbs": 315,
+  "fats": 81,
+  "proteins": 225,
+}
+`;
+
+exports[`Foo > macros(m 90 muy intensa maintain) 1`] = `
+{
+  "carbs": 360,
+  "fats": 99.00000000000001,
+  "proteins": 144,
+}
+`;
+
+exports[`Foo > macros(m 90 sedentario gain) 1`] = `
+{
+  "carbs": 270,
+  "fats": 72,
+  "proteins": 108,
+}
+`;
+
+exports[`Foo > macros(m 90 sedentario lost) 1`] = `
+{
+  "carbs": 180,
+  "fats": 72,
+  "proteins": 108,
+}
+`;
+
+exports[`Foo > macros(m 90 sedentario maintain) 1`] = `
+{
+  "carbs": 225,
+  "fats": 90,
+  "proteins": 108,
+}
+`;
+
+exports[`Foo > macros(m 100 intensa gain) 1`] = `
+{
+  "carbs": 420,
+  "fats": 100,
+  "proteins": 200,
+}
+`;
+
+exports[`Foo > macros(m 100 intensa lost) 1`] = `
+{
+  "carbs": 320,
+  "fats": 90,
+  "proteins": 220.00000000000003,
+}
+`;
+
+exports[`Foo > macros(m 100 intensa maintain) 1`] = `
+{
+  "carbs": 350,
+  "fats": 110.00000000000001,
+  "proteins": 140,
+}
+`;
+
+exports[`Foo > macros(m 100 ligera gain) 1`] = `
+{
+  "carbs": 350,
+  "fats": 80,
+  "proteins": 140,
+}
+`;
+
+exports[`Foo > macros(m 100 ligera lost) 1`] = `
+{
+  "carbs": 250,
+  "fats": 80,
+  "proteins": 160,
+}
+`;
+
+exports[`Foo > macros(m 100 ligera maintain) 1`] = `
+{
+  "carbs": 250,
+  "fats": 100,
+  "proteins": 120,
+}
+`;
+
+exports[`Foo > macros(m 100 moderada gain) 1`] = `
+{
+  "carbs": 390,
+  "fats": 100,
+  "proteins": 160,
+}
+`;
+
+exports[`Foo > macros(m 100 moderada lost) 1`] = `
+{
+  "carbs": 280,
+  "fats": 80,
+  "proteins": 200,
+}
+`;
+
+exports[`Foo > macros(m 100 moderada maintain) 1`] = `
+{
+  "carbs": 300,
+  "fats": 100,
+  "proteins": 120,
+}
+`;
+
+exports[`Foo > macros(m 100 muy intensa gain) 1`] = `
+{
+  "carbs": 450,
+  "fats": 120,
+  "proteins": 220.00000000000003,
+}
+`;
+
+exports[`Foo > macros(m 100 muy intensa lost) 1`] = `
+{
+  "carbs": 350,
+  "fats": 90,
+  "proteins": 250,
+}
+`;
+
+exports[`Foo > macros(m 100 muy intensa maintain) 1`] = `
+{
+  "carbs": 400,
+  "fats": 110.00000000000001,
+  "proteins": 160,
+}
+`;
+
+exports[`Foo > macros(m 100 sedentario gain) 1`] = `
+{
+  "carbs": 300,
+  "fats": 80,
+  "proteins": 120,
+}
+`;
+
+exports[`Foo > macros(m 100 sedentario lost) 1`] = `
+{
+  "carbs": 200,
+  "fats": 80,
+  "proteins": 120,
+}
+`;
+
+exports[`Foo > macros(m 100 sedentario maintain) 1`] = `
+{
+  "carbs": 250,
+  "fats": 100,
+  "proteins": 120,
+}
+`;
+
+exports[`Foo > works1 1`] = `
+{
+  "carbs": "240",
+  "fats": "56",
+  "proteins": "96",
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 70 intensa gain) 1`] = `
+{
+  "carbs": 294,
+  "fats": 56,
+  "proteins": 140,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 70 intensa lost) 1`] = `
+{
+  "carbs": 224,
+  "fats": 49,
+  "proteins": 154,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 70 intensa maintain) 1`] = `
+{
+  "carbs": 245,
+  "fats": 70,
+  "proteins": 98,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 70 ligera gain) 1`] = `
+{
+  "carbs": 245,
+  "fats": 49,
+  "proteins": 98,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 70 ligera lost) 1`] = `
+{
+  "carbs": 175,
+  "fats": 42,
+  "proteins": 112,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 70 ligera maintain) 1`] = `
+{
+  "carbs": 175,
+  "fats": 56,
+  "proteins": 84,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 70 moderada gain) 1`] = `
+{
+  "carbs": 273,
+  "fats": 56,
+  "proteins": 112,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 70 moderada lost) 1`] = `
+{
+  "carbs": 196,
+  "fats": 42,
+  "proteins": 140,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 70 moderada maintain) 1`] = `
+{
+  "carbs": 210,
+  "fats": 56,
+  "proteins": 84,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 70 muy intensa gain) 1`] = `
+{
+  "carbs": 315,
+  "fats": 70,
+  "proteins": 154,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 70 muy intensa lost) 1`] = `
+{
+  "carbs": 245,
+  "fats": 49,
+  "proteins": 175,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 70 muy intensa maintain) 1`] = `
+{
+  "carbs": 280,
+  "fats": 70,
+  "proteins": 112,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 70 sedentario gain) 1`] = `
+{
+  "carbs": 210,
+  "fats": 49,
+  "proteins": 84,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 70 sedentario lost) 1`] = `
+{
+  "carbs": 140,
+  "fats": 42,
+  "proteins": 84,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 70 sedentario maintain) 1`] = `
+{
+  "carbs": 175,
+  "fats": 56,
+  "proteins": 84,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 80 intensa gain) 1`] = `
+{
+  "carbs": 336,
+  "fats": 64,
+  "proteins": 160,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 80 intensa lost) 1`] = `
+{
+  "carbs": 256,
+  "fats": 56,
+  "proteins": 176,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 80 intensa maintain) 1`] = `
+{
+  "carbs": 280,
+  "fats": 80,
+  "proteins": 112,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 80 ligera gain) 1`] = `
+{
+  "carbs": 280,
+  "fats": 56,
+  "proteins": 112,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 80 ligera lost) 1`] = `
+{
+  "carbs": 200,
+  "fats": 48,
+  "proteins": 128,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 80 ligera maintain) 1`] = `
+{
+  "carbs": 200,
+  "fats": 64,
+  "proteins": 96,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 80 moderada gain) 1`] = `
+{
+  "carbs": 312,
+  "fats": 64,
+  "proteins": 128,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 80 moderada lost) 1`] = `
+{
+  "carbs": 224,
+  "fats": 48,
+  "proteins": 160,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 80 moderada maintain) 1`] = `
+{
+  "carbs": 240,
+  "fats": 64,
+  "proteins": 96,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 80 muy intensa gain) 1`] = `
+{
+  "carbs": 360,
+  "fats": 80,
+  "proteins": 176,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 80 muy intensa lost) 1`] = `
+{
+  "carbs": 280,
+  "fats": 56,
+  "proteins": 200,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 80 muy intensa maintain) 1`] = `
+{
+  "carbs": 320,
+  "fats": 80,
+  "proteins": 128,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 80 sedentario gain) 1`] = `
+{
+  "carbs": 240,
+  "fats": 56,
+  "proteins": 96,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 80 sedentario lost) 1`] = `
+{
+  "carbs": 160,
+  "fats": 48,
+  "proteins": 96,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 80 sedentario maintain) 1`] = `
+{
+  "carbs": 200,
+  "fats": 64,
+  "proteins": 96,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 90 intensa gain) 1`] = `
+{
+  "carbs": 378,
+  "fats": 72,
+  "proteins": 180,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 90 intensa lost) 1`] = `
+{
+  "carbs": 288,
+  "fats": 62.99999999999999,
+  "proteins": 198.00000000000003,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 90 intensa maintain) 1`] = `
+{
+  "carbs": 315,
+  "fats": 90,
+  "proteins": 125.99999999999999,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 90 ligera gain) 1`] = `
+{
+  "carbs": 315,
+  "fats": 62.99999999999999,
+  "proteins": 125.99999999999999,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 90 ligera lost) 1`] = `
+{
+  "carbs": 225,
+  "fats": 54,
+  "proteins": 144,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 90 ligera maintain) 1`] = `
+{
+  "carbs": 225,
+  "fats": 72,
+  "proteins": 108,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 90 moderada gain) 1`] = `
+{
+  "carbs": 351,
+  "fats": 72,
+  "proteins": 144,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 90 moderada lost) 1`] = `
+{
+  "carbs": 251.99999999999997,
+  "fats": 54,
+  "proteins": 180,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 90 moderada maintain) 1`] = `
+{
+  "carbs": 270,
+  "fats": 72,
+  "proteins": 108,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 90 muy intensa gain) 1`] = `
+{
+  "carbs": 405,
+  "fats": 90,
+  "proteins": 198.00000000000003,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 90 muy intensa lost) 1`] = `
+{
+  "carbs": 315,
+  "fats": 62.99999999999999,
+  "proteins": 225,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 90 muy intensa maintain) 1`] = `
+{
+  "carbs": 360,
+  "fats": 90,
+  "proteins": 144,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 90 sedentario gain) 1`] = `
+{
+  "carbs": 270,
+  "fats": 62.99999999999999,
+  "proteins": 108,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 90 sedentario lost) 1`] = `
+{
+  "carbs": 180,
+  "fats": 54,
+  "proteins": 108,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 90 sedentario maintain) 1`] = `
+{
+  "carbs": 225,
+  "fats": 72,
+  "proteins": 108,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 100 intensa gain) 1`] = `
+{
+  "carbs": 420,
+  "fats": 80,
+  "proteins": 200,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 100 intensa lost) 1`] = `
+{
+  "carbs": 320,
+  "fats": 70,
+  "proteins": 220.00000000000003,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 100 intensa maintain) 1`] = `
+{
+  "carbs": 350,
+  "fats": 100,
+  "proteins": 140,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 100 ligera gain) 1`] = `
+{
+  "carbs": 350,
+  "fats": 70,
+  "proteins": 140,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 100 ligera lost) 1`] = `
+{
+  "carbs": 250,
+  "fats": 60,
+  "proteins": 160,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 100 ligera maintain) 1`] = `
+{
+  "carbs": 250,
+  "fats": 80,
+  "proteins": 120,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 100 moderada gain) 1`] = `
+{
+  "carbs": 390,
+  "fats": 80,
+  "proteins": 160,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 100 moderada lost) 1`] = `
+{
+  "carbs": 280,
+  "fats": 60,
+  "proteins": 200,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 100 moderada maintain) 1`] = `
+{
+  "carbs": 300,
+  "fats": 80,
+  "proteins": 120,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 100 muy intensa gain) 1`] = `
+{
+  "carbs": 450,
+  "fats": 100,
+  "proteins": 220.00000000000003,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 100 muy intensa lost) 1`] = `
+{
+  "carbs": 350,
+  "fats": 70,
+  "proteins": 250,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 100 muy intensa maintain) 1`] = `
+{
+  "carbs": 400,
+  "fats": 100,
+  "proteins": 160,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 100 sedentario gain) 1`] = `
+{
+  "carbs": 300,
+  "fats": 70,
+  "proteins": 120,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 100 sedentario lost) 1`] = `
+{
+  "carbs": 200,
+  "fats": 60,
+  "proteins": 120,
+}
+`;
+
+exports[`calculateMacronutrients > macros(h 100 sedentario maintain) 1`] = `
+{
+  "carbs": 250,
+  "fats": 80,
+  "proteins": 120,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 70 intensa gain) 1`] = `
+{
+  "carbs": 294,
+  "fats": 70,
+  "proteins": 140,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 70 intensa lost) 1`] = `
+{
+  "carbs": 224,
+  "fats": 63,
+  "proteins": 154,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 70 intensa maintain) 1`] = `
+{
+  "carbs": 245,
+  "fats": 77,
+  "proteins": 98,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 70 ligera gain) 1`] = `
+{
+  "carbs": 245,
+  "fats": 56,
+  "proteins": 98,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 70 ligera lost) 1`] = `
+{
+  "carbs": 175,
+  "fats": 56,
+  "proteins": 112,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 70 ligera maintain) 1`] = `
+{
+  "carbs": 175,
+  "fats": 70,
+  "proteins": 84,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 70 moderada gain) 1`] = `
+{
+  "carbs": 273,
+  "fats": 70,
+  "proteins": 112,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 70 moderada lost) 1`] = `
+{
+  "carbs": 196,
+  "fats": 56,
+  "proteins": 140,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 70 moderada maintain) 1`] = `
+{
+  "carbs": 210,
+  "fats": 70,
+  "proteins": 84,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 70 muy intensa gain) 1`] = `
+{
+  "carbs": 315,
+  "fats": 84,
+  "proteins": 154,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 70 muy intensa lost) 1`] = `
+{
+  "carbs": 245,
+  "fats": 63,
+  "proteins": 175,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 70 muy intensa maintain) 1`] = `
+{
+  "carbs": 280,
+  "fats": 77,
+  "proteins": 112,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 70 sedentario gain) 1`] = `
+{
+  "carbs": 210,
+  "fats": 56,
+  "proteins": 84,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 70 sedentario lost) 1`] = `
+{
+  "carbs": 140,
+  "fats": 56,
+  "proteins": 84,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 70 sedentario maintain) 1`] = `
+{
+  "carbs": 175,
+  "fats": 70,
+  "proteins": 84,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 80 intensa gain) 1`] = `
+{
+  "carbs": 336,
+  "fats": 80,
+  "proteins": 160,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 80 intensa lost) 1`] = `
+{
+  "carbs": 256,
+  "fats": 72,
+  "proteins": 176,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 80 intensa maintain) 1`] = `
+{
+  "carbs": 280,
+  "fats": 88,
+  "proteins": 112,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 80 ligera gain) 1`] = `
+{
+  "carbs": 280,
+  "fats": 64,
+  "proteins": 112,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 80 ligera lost) 1`] = `
+{
+  "carbs": 200,
+  "fats": 64,
+  "proteins": 128,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 80 ligera maintain) 1`] = `
+{
+  "carbs": 200,
+  "fats": 80,
+  "proteins": 96,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 80 moderada gain) 1`] = `
+{
+  "carbs": 312,
+  "fats": 80,
+  "proteins": 128,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 80 moderada lost) 1`] = `
+{
+  "carbs": 224,
+  "fats": 64,
+  "proteins": 160,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 80 moderada maintain) 1`] = `
+{
+  "carbs": 240,
+  "fats": 80,
+  "proteins": 96,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 80 muy intensa gain) 1`] = `
+{
+  "carbs": 360,
+  "fats": 96,
+  "proteins": 176,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 80 muy intensa lost) 1`] = `
+{
+  "carbs": 280,
+  "fats": 72,
+  "proteins": 200,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 80 muy intensa maintain) 1`] = `
+{
+  "carbs": 320,
+  "fats": 88,
+  "proteins": 128,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 80 sedentario gain) 1`] = `
+{
+  "carbs": 240,
+  "fats": 64,
+  "proteins": 96,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 80 sedentario lost) 1`] = `
+{
+  "carbs": 160,
+  "fats": 64,
+  "proteins": 96,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 80 sedentario maintain) 1`] = `
+{
+  "carbs": 200,
+  "fats": 80,
+  "proteins": 96,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 90 intensa gain) 1`] = `
+{
+  "carbs": 378,
+  "fats": 90,
+  "proteins": 180,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 90 intensa lost) 1`] = `
+{
+  "carbs": 288,
+  "fats": 81,
+  "proteins": 198.00000000000003,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 90 intensa maintain) 1`] = `
+{
+  "carbs": 315,
+  "fats": 99.00000000000001,
+  "proteins": 125.99999999999999,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 90 ligera gain) 1`] = `
+{
+  "carbs": 315,
+  "fats": 72,
+  "proteins": 125.99999999999999,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 90 ligera lost) 1`] = `
+{
+  "carbs": 225,
+  "fats": 72,
+  "proteins": 144,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 90 ligera maintain) 1`] = `
+{
+  "carbs": 225,
+  "fats": 90,
+  "proteins": 108,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 90 moderada gain) 1`] = `
+{
+  "carbs": 351,
+  "fats": 90,
+  "proteins": 144,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 90 moderada lost) 1`] = `
+{
+  "carbs": 251.99999999999997,
+  "fats": 72,
+  "proteins": 180,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 90 moderada maintain) 1`] = `
+{
+  "carbs": 270,
+  "fats": 90,
+  "proteins": 108,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 90 muy intensa gain) 1`] = `
+{
+  "carbs": 405,
+  "fats": 108,
+  "proteins": 198.00000000000003,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 90 muy intensa lost) 1`] = `
+{
+  "carbs": 315,
+  "fats": 81,
+  "proteins": 225,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 90 muy intensa maintain) 1`] = `
+{
+  "carbs": 360,
+  "fats": 99.00000000000001,
+  "proteins": 144,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 90 sedentario gain) 1`] = `
+{
+  "carbs": 270,
+  "fats": 72,
+  "proteins": 108,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 90 sedentario lost) 1`] = `
+{
+  "carbs": 180,
+  "fats": 72,
+  "proteins": 108,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 90 sedentario maintain) 1`] = `
+{
+  "carbs": 225,
+  "fats": 90,
+  "proteins": 108,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 100 intensa gain) 1`] = `
+{
+  "carbs": 420,
+  "fats": 100,
+  "proteins": 200,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 100 intensa lost) 1`] = `
+{
+  "carbs": 320,
+  "fats": 90,
+  "proteins": 220.00000000000003,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 100 intensa maintain) 1`] = `
+{
+  "carbs": 350,
+  "fats": 110.00000000000001,
+  "proteins": 140,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 100 ligera gain) 1`] = `
+{
+  "carbs": 350,
+  "fats": 80,
+  "proteins": 140,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 100 ligera lost) 1`] = `
+{
+  "carbs": 250,
+  "fats": 80,
+  "proteins": 160,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 100 ligera maintain) 1`] = `
+{
+  "carbs": 250,
+  "fats": 100,
+  "proteins": 120,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 100 moderada gain) 1`] = `
+{
+  "carbs": 390,
+  "fats": 100,
+  "proteins": 160,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 100 moderada lost) 1`] = `
+{
+  "carbs": 280,
+  "fats": 80,
+  "proteins": 200,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 100 moderada maintain) 1`] = `
+{
+  "carbs": 300,
+  "fats": 100,
+  "proteins": 120,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 100 muy intensa gain) 1`] = `
+{
+  "carbs": 450,
+  "fats": 120,
+  "proteins": 220.00000000000003,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 100 muy intensa lost) 1`] = `
+{
+  "carbs": 350,
+  "fats": 90,
+  "proteins": 250,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 100 muy intensa maintain) 1`] = `
+{
+  "carbs": 400,
+  "fats": 110.00000000000001,
+  "proteins": 160,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 100 sedentario gain) 1`] = `
+{
+  "carbs": 300,
+  "fats": 80,
+  "proteins": 120,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 100 sedentario lost) 1`] = `
+{
+  "carbs": 200,
+  "fats": 80,
+  "proteins": 120,
+}
+`;
+
+exports[`calculateMacronutrients > macros(m 100 sedentario maintain) 1`] = `
+{
+  "carbs": 250,
+  "fats": 100,
+  "proteins": 120,
+}
+`;
