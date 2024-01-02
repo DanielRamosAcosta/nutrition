@@ -1,3 +1,5 @@
+import { PersonalSituation } from "./PersonalSituation.js"
+
 class Nutrition {
-  analyze() {}
+  analyze(personalSituation: PersonalSituation) {}
 }

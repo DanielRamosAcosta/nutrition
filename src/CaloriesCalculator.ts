@@ -2,10 +2,10 @@ import { Sex } from "./Sex.js"
 import { ActivityLevel } from "./ActivityLevel.js"
 
 export class CaloriesCalculator {
-  static calculate(gender: Sex, weight: number, height: number, age: number, activityLevel: ActivityLevel) {
+  static calculate(sex: Sex, weight: number, height: number, age: number, activityLevel: ActivityLevel) {
     let result
     let basalMetabolicRate = 10 * weight + 6.25 * height - 5 * age
-    basalMetabolicRate = gender === Sex.MALE ? basalMetabolicRate + 5 : basalMetabolicRate - 161
+    basalMetabolicRate = sex === Sex.MALE ? basalMetabolicRate + 5 : basalMetabolicRate - 161
     switch (activityLevel) {
       case ActivityLevel.LIGHT:
         result = basalMetabolicRate * 1.375

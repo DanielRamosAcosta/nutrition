@@ -7,8 +7,8 @@ import { MainGoals } from "./MainGoal.js"
 describe("MacronutrientsCalculator", () => {
   it.each(verifyAllCombinations(Sexes, [70, 80, 90, 100], ActivityLevels, MainGoals))(
     "macros(%s %d %s %s)",
-    (gender, weight, activityLevel, mainGoal) => {
-      const result = MacronutrientsCalculator.calculate(gender, weight, activityLevel, mainGoal)
+    (sex, weight, activityLevel, mainGoal) => {
+      const result = MacronutrientsCalculator.calculate(sex, weight, activityLevel, mainGoal)
 
       expect(result).toMatchSnapshot()
     },

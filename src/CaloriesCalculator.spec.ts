@@ -6,8 +6,8 @@ import { CaloriesCalculator } from "./CaloriesCalculator.js"
 describe("CaloriesCalculator", () => {
   it.each(verifyAllCombinations(Sexes, [70, 80, 90, 100], [160, 170, 180, 190], [20, 25, 30, 35], ActivityLevels))(
     "macros(%s %d %d %d %s)",
-    (gender, weight, height, age, activityLevel) => {
-      const result = CaloriesCalculator.calculate(gender, weight, height, age, activityLevel)
+    (sex, weight, height, age, activityLevel) => {
+      const result = CaloriesCalculator.calculate(sex, weight, height, age, activityLevel)
 
       expect(result).toMatchSnapshot()
     },
