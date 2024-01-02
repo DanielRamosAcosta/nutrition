@@ -1,8 +1,6 @@
-import { Sex, Sexes } from "./Sex.js"
-import { ActivityLevel, ActivityLevels } from "./ActivityLevel.js"
+import { Sexes } from "./Sex.js"
+import { ActivityLevels } from "./ActivityLevel.js"
 import { describe, expect, it } from "vitest"
-import { MainGoal, MainGoals } from "./MainGoal.js"
-import { calculateMacronutrients } from "./MacronutrientsCalculator.js"
 import { CaloriesCalculator } from "./CaloriesCalculator.js"
 
 describe("CaloriesCalculator", () => {
