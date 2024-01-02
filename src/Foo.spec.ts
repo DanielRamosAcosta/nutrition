@@ -1,28 +1,27 @@
 import { describe, expect, it } from "vitest"
 import { calculateMacronutrients } from "./Foo.js"
+import { Sex, Sexes } from "./Sex.js"
+import { ActivityLevel, ActivityLevels } from "./ActivityLevel.js"
+import { MainGoal, MainGoals } from "./MainGoal.js"
 
 describe("calculateMacronutrients", () => {
-  it.each(
-    verifyAllCombinations(
-      ["h", "m"],
-      [70, 80, 90, 100],
-      ["sedentario", "ligera", "moderada", "intensa", "muy intensa"],
-      ["gain", "lost", "maintain"],
-    ),
-  )("macros(%s %d %s %s)", (gender, weight, activityLevel, mainGoal) => {
-    const result = calculateMacronutrients(gender, weight, activityLevel, mainGoal)
+  it.each(verifyAllCombinations(Sexes, [70, 80, 90, 100], ActivityLevels, MainGoals))(
+    "macros(%s %d %s %s)",
+    (gender, weight, activityLevel, mainGoal) => {
+      const result = calculateMacronutrients(gender, weight, activityLevel, mainGoal)
 
-    expect(result).toMatchSnapshot()
-  })
+      expect(result).toMatchSnapshot()
+    },
+  )
 })
 
 function verifyAllCombinations(
-  genders: string[],
+  genders: Sex[],
   weights: number[],
-  activityLevels: string[],
-  mainGoals: string[],
-): Array<[string, number, string, string]> {
-  const combinations: Array<[string, number, string, string]> = []
+  activityLevels: ActivityLevel[],
+  mainGoals: MainGoal[],
+): Array<[Sex, number, ActivityLevel, MainGoal]> {
+  const combinations: Array<[Sex, number, ActivityLevel, MainGoal]> = []
 
   for (const gender of genders) {
     for (const weight of weights) {
