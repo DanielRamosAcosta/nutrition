@@ -3,12 +3,13 @@ import { ActivityLevels } from "./ActivityLevel.js"
 import { describe, expect, it } from "vitest"
 import { CaloriesCalculator } from "./CaloriesCalculator.js"
 import { Weight } from "./Weight.js"
+import { Length } from "./Length.js"
 
 describe("CaloriesCalculator", () => {
   it.each(verifyAllCombinations(Sexes, [70, 80, 90, 100], [160, 170, 180, 190], [20, 25, 30, 35], ActivityLevels))(
     "macros(%s %d %d %d %s)",
     (sex, weight, height, age, activityLevel) => {
-      const result = CaloriesCalculator.calculate(sex, Weight.kg(weight), height, age, activityLevel)
+      const result = CaloriesCalculator.calculate(sex, Weight.kg(weight), Length.cm(height), age, activityLevel)
 
       expect(result).toMatchSnapshot()
     },
