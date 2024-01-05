@@ -5,6 +5,10 @@ export class Weight {
     return new Weight(amount)
   }
 
+  static g(amount: number) {
+    return new Weight(amount / 1000)
+  }
+
   toNumberInKg() {
     return this.amount
   }
