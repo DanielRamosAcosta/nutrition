@@ -3,12 +3,13 @@ import { MacronutrientsCalculator } from "./MacronutrientsCalculator.js"
 import { Sexes } from "./Sex.js"
 import { ActivityLevels } from "./ActivityLevel.js"
 import { MainGoals } from "./MainGoal.js"
+import { Weight } from "./Weight.js"
 
 describe("MacronutrientsCalculator", () => {
   it.each(verifyAllCombinations(Sexes, [70, 80, 90, 100], ActivityLevels, MainGoals))(
     "macros(%s %d %s %s)",
     (sex, weight, activityLevel, mainGoal) => {
-      const result = MacronutrientsCalculator.calculate(sex, weight, activityLevel, mainGoal)
+      const result = MacronutrientsCalculator.calculate(sex, Weight.kg(weight), activityLevel, mainGoal)
 
       expect(result).toMatchSnapshot()
     },
