@@ -4,4 +4,8 @@ export class Weight {
   static kg(amount: number) {
     return new Weight(amount)
   }
+
+  toNumberInKg() {
+    return this.amount
+  }
 }

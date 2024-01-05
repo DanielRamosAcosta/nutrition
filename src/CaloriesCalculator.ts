@@ -1,5 +1,6 @@
 import { Sex } from "./Sex.js"
 import { ActivityLevel } from "./ActivityLevel.js"
+import { Weight } from "./Weight.js"
 
 export class CaloriesCalculator {
   private static rateMap: Record<ActivityLevel, number> = {
@@ -10,8 +11,8 @@ export class CaloriesCalculator {
     [ActivityLevel.VERY_INTENSE]: 1.9,
   }
 
-  static calculate(sex: Sex, weight: number, height: number, age: number, activityLevel: ActivityLevel) {
-    const basalMetabolicRate = this.getBasalMetabolicRate(weight, height, age)
+  static calculate(sex: Sex, weight: Weight, height: number, age: number, activityLevel: ActivityLevel) {
+    const basalMetabolicRate = this.getBasalMetabolicRate(height, age, weight)
     const basalMetabolicRateWithSex = this.applySexDifferences(sex, basalMetabolicRate)
 
     return basalMetabolicRateWithSex * this.rateMap[activityLevel]
@@ -21,7 +22,7 @@ export class CaloriesCalculator {
     return sex === Sex.MALE ? basalMetabolicRate + 5 : basalMetabolicRate - 161
   }
 
-  private static getBasalMetabolicRate(weight: number, height: number, age: number) {
-    return 10 * weight + 6.25 * height - 5 * age
+  private static getBasalMetabolicRate(height: number, age: number, weight1: Weight) {
+    return 10 * weight1.toNumberInKg() + 6.25 * height - 5 * age
   }
 }
