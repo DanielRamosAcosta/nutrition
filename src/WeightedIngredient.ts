@@ -26,6 +26,10 @@ export class WeightedIngredient {
     return this.fats().format()
   }
 
+  energy() {
+    return this.ingredient.energyRelativeTo(this.weight)
+  }
+
   proteins() {
     return this.ingredient.proteinsRelativeTo(this.weight)
   }

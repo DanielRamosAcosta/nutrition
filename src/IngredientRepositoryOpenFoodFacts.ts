@@ -4,6 +4,8 @@ import { IngredientRepository } from "./IngredientRepository.js"
 import { Root } from "./schema.js"
 import { Nutriments } from "./Nutriments.js"
 import { Weight } from "./Weight.js"
+import { Macros } from "./Macros.js"
+import { Energy } from "./Energy.js"
 
 export class IngredientRepositoryOpenFoodFacts implements IngredientRepository {
   async findBy(id: IngredientId): Promise<Ingredient | undefined> {
@@ -19,10 +21,13 @@ export class IngredientRepositoryOpenFoodFacts implements IngredientRepository {
       throw new Error("OFF Error: " + data.status_verbose)
     }
 
-    const nutriments = new Nutriments(
-      Weight.g(data.product.nutriments.proteins),
-      Weight.g(data.product.nutriments.carbohydrates),
-      Weight.g(data.product.nutriments.fat),
+    const nutriments = Nutriments.create(
+      Energy.kcal(data.product.nutriments["energy-kcal"]),
+      new Macros(
+        Weight.g(data.product.nutriments.proteins),
+        Weight.g(data.product.nutriments.carbohydrates),
+        Weight.g(data.product.nutriments.fat),
+      ),
     )
 
     return new Ingredient(id, data.product.product_name_es, nutriments)

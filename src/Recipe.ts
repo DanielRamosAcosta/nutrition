@@ -1,5 +1,6 @@
 import { WeightedIngredient } from "./WeightedIngredient.js"
 import { Weight } from "./Weight.js"
+import { Energy } from "./Energy.js"
 
 export class Recipe {
   public static empty() {
@@ -19,57 +20,16 @@ export class Recipe {
     return this.name
   }
 
-  toTable(): string {
-    const map = this.ingredients.map((ingredient) => [
-      ingredient.nameFormatted(),
-      ingredient.proteinsFormatted(),
-      ingredient.carbohydratesFormatted(),
-      ingredient.fatsFormatted(),
-    ])
-
-    const matrix = [
-      ["Nombre", "Proteínas", "Carbohidratos", "Grasas"],
-      ...map,
-      ["Total.....", this.proteins(), this.carbohydrates(), this.fats()],
-    ]
-
-    const column1MaxLength = Math.max(
-      ...matrix
-        .map((el) => el[0])
-        .map((el) => el.toString())
-        .map((el) => el.length),
-    )
-
-    const column2MaxLength = Math.max(
-      ...matrix
-        .map((el) => el[1])
-        .map((el) => el.toString())
-        .map((el) => el.length),
-    )
-
-    const column3MaxLength = Math.max(
-      ...matrix
-        .map((el) => el[2])
-        .map((el) => el.toString())
-        .map((el) => el.length),
-    )
-
-    const column4MaxLength = Math.max(
-      ...matrix
-        .map((el) => el[3])
-        .map((el) => el.toString())
-        .map((el) => el.length),
-    )
-
-    const pads = [column1MaxLength, column2MaxLength, column3MaxLength, column4MaxLength]
-
-    const res = matrix.map((el) => el.map((k, i) => k.toString().padEnd(pads[i], " ")).join(" | "))
-
-    return res.join("\n")
+  energy() {
+    return this.ingredients.map((i) => i.energy()).reduce((t, c) => t.add(c), Energy.zero())
   }
 
   proteins() {
-    return this.ingredients.map((i) => i.proteins()).reduce((t, c) => t.add(c), Weight.zero())
+    return this.ingredients
+      .map((i) => i.proteins())
+      .reduce((t, c) => {
+        return t.add(c)
+      }, Weight.zero())
   }
 
   carbohydrates() {

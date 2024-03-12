@@ -17,6 +17,10 @@ export class Ingredient {
     return this.name
   }
 
+  energyRelativeTo(weight: Weight) {
+    return this.nutriments.energyRelativeTo(weight)
+  }
+
   proteinsRelativeTo(weight: Weight) {
     return this.nutriments.proteinsRelativeTo(weight)
   }

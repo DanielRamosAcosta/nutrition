@@ -32,7 +32,7 @@ export class Weight {
   }
 
   toNumberInKg() {
-    return this.amount
+    return this.amount / 1000
   }
 
   of(ingredient: Ingredient) {
@@ -61,5 +61,9 @@ export class Weight {
 
   toString() {
     return this.format()
+  }
+
+  toNumberInGrams() {
+    return this.amount
   }
 }

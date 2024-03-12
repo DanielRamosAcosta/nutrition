@@ -4,6 +4,8 @@ import { IngredientRepositoryBedca } from "./IngredientRepositoryBedca.js"
 import { Ingredient } from "./Ingredient.js"
 import { Nutriments } from "./Nutriments.js"
 import { Weight } from "./Weight.js"
+import { Macros } from "./Macros.js"
+import { Energy } from "./Energy.js"
 
 describe("IngredientRepositoryBedca", () => {
   const ingredientRepository = new IngredientRepositoryBedca()
@@ -14,7 +16,11 @@ describe("IngredientRepositoryBedca", () => {
     const ingredient = await ingredientRepository.findBy(bananaId)
 
     expect(ingredient).toEqual(
-      new Ingredient(bananaId, "Plátano", new Nutriments(Weight.g(1.2), Weight.g(20), Weight.g(0.24))),
+      new Ingredient(
+        bananaId,
+        "Plátano",
+        Nutriments.create(Energy.kcal(89), new Macros(Weight.g(1.2), Weight.g(20), Weight.g(0.24))),
+      ),
     )
   })
 
@@ -24,7 +30,11 @@ describe("IngredientRepositoryBedca", () => {
     const ingredient = await ingredientRepository.findBy(pumpkinId)
 
     expect(ingredient).toEqual(
-      new Ingredient(pumpkinId, "Calabaza, cruda", new Nutriments(Weight.g(1.2), Weight.g(5.6), Weight.g(0.33))),
+      new Ingredient(
+        pumpkinId,
+        "Calabaza, cruda",
+        Nutriments.create(Energy.kcal(32), new Macros(Weight.g(1.2), Weight.g(5.6), Weight.g(0.33))),
+      ),
     )
   })
 

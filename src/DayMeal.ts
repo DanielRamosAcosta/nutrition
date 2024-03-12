@@ -10,17 +10,33 @@ export class DayMeal {
   ) {}
 
   toTableFormat(details = false) {
-    const headers = ["Name", "Proteínas", "Carbohidratos", "Grasas"]
+    const headers = ["Name", "Calorías", "Proteínas", "Carbohidratos", "Grasas"]
 
     const data = [
-      [this.breakfast.getName(), this.breakfast.proteins(), this.breakfast.carbohydrates(), this.breakfast.fats()],
-      [this.lunch.getName(), this.lunch.proteins(), this.lunch.carbohydrates(), this.lunch.fats()],
-      [this.dinner.getName(), this.dinner.proteins(), this.dinner.carbohydrates(), this.dinner.fats()],
+      [
+        this.breakfast.getName(),
+        this.breakfast.energy(),
+        this.breakfast.proteins(),
+        this.breakfast.carbohydrates(),
+        this.breakfast.fats(),
+      ],
+      [this.lunch.getName(), this.lunch.energy(), this.lunch.proteins(), this.lunch.carbohydrates(), this.lunch.fats()],
+      [
+        this.dinner.getName(),
+        this.dinner.energy(),
+        this.dinner.proteins(),
+        this.dinner.carbohydrates(),
+        this.dinner.fats(),
+      ],
     ]
 
-    const footer = ["Total", this.proteins(), this.carbohydrates(), this.fats()]
+    const footer = ["Total", this.energy(), this.proteins(), this.carbohydrates(), this.fats()]
 
     return Matrix.toTable([headers, ...data, footer])
+  }
+
+  energy() {
+    return this.breakfast.energy().add(this.lunch.energy()).add(this.dinner.energy())
   }
 
   proteins() {

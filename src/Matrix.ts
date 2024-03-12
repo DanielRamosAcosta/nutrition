@@ -1,7 +1,8 @@
 import { Weight } from "./Weight.js"
+import { Energy } from "./Energy.js"
 
 export class Matrix {
-  public static toTable(matrix: Array<Array<String | Weight>>) {
+  public static toTable(matrix: Array<Array<string | Weight | Energy>>) {
     const column1MaxLength = Math.max(
       ...matrix
         .map((el) => el[0])

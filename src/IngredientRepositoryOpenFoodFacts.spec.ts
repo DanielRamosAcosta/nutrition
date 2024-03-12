@@ -4,6 +4,8 @@ import { Ingredient } from "./Ingredient.js"
 import { Nutriments } from "./Nutriments.js"
 import { Weight } from "./Weight.js"
 import { IngredientRepositoryOpenFoodFacts } from "./IngredientRepositoryOpenFoodFacts.js"
+import { Macros } from "./Macros.js"
+import { Energy } from "./Energy.js"
 
 describe("IngredientRepositoryOpenFoodFacts", () => {
   const ingredientRepository = new IngredientRepositoryOpenFoodFacts()
@@ -14,7 +16,11 @@ describe("IngredientRepositoryOpenFoodFacts", () => {
     const ingredient = await ingredientRepository.findBy(oatsId)
 
     expect(ingredient).toEqual(
-      new Ingredient(oatsId, "Copos de avena", new Nutriments(Weight.g(14), Weight.g(59), Weight.g(7))),
+      new Ingredient(
+        oatsId,
+        "Copos de avena",
+        Nutriments.create(Energy.kcal(375), new Macros(Weight.g(14), Weight.g(59), Weight.g(7))),
+      ),
     )
   })
 

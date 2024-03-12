@@ -5,6 +5,8 @@ import { IngredientRepository } from "./IngredientRepository.js"
 import { Nutriments } from "./Nutriments.js"
 import { Weight } from "./Weight.js"
 import { Foodvalue, Root } from "./bedca-schema.js"
+import { Macros } from "./Macros.js"
+import { Energy } from "./Energy.js"
 
 export class IngredientRepositoryBedca implements IngredientRepository {
   private parser = new XMLParser()
@@ -44,11 +46,25 @@ export class IngredientRepositoryBedca implements IngredientRepository {
       return
     }
 
+    const energy = this.getEnergy(foodValues)
     const proteins = this.getProteins(foodValues)
     const fats = this.getFats(foodValues)
     const carbohydrates = this.getCarbohydrates(foodValues)
 
-    return new Ingredient(id, foodresponse.food.f_ori_name, new Nutriments(proteins, carbohydrates, fats))
+    return new Ingredient(
+      id,
+      foodresponse.food.f_ori_name,
+      Nutriments.create(energy, new Macros(proteins, carbohydrates, fats)),
+    )
+  }
+
+  private getEnergy(components: Foodvalue[]): Energy {
+    const component = components.find((component) => component.c_id === 409)
+
+    if (!component) throw new Error("Could not found energy")
+    if (typeof component.best_location === "string") return new Energy(0)
+
+    return Energy.parse(component.best_location, component.v_unit)
   }
 
   private getCarbohydrates(components: Foodvalue[]) {

@@ -4,6 +4,8 @@ import { Ingredient } from "./Ingredient.js"
 import { Nutriments } from "./Nutriments.js"
 import { Weight } from "./Weight.js"
 import { IngredientRepositoryFileSystem } from "./IngredientRepositoryFileSystem.js"
+import { Energy } from "./Energy.js"
+import { Macros } from "./Macros.js"
 
 describe("IngredientRepositoryFileSystem", () => {
   const ingredientRepository = new IngredientRepositoryFileSystem()
@@ -14,7 +16,11 @@ describe("IngredientRepositoryFileSystem", () => {
     const ingredient = await ingredientRepository.findBy(bananaId)
 
     expect(ingredient).toEqual(
-      new Ingredient(bananaId, "Plátano", new Nutriments(Weight.g(1.2), Weight.g(20), Weight.g(0.24))),
+      new Ingredient(
+        bananaId,
+        "Plátano",
+        Nutriments.create(Energy.kcal(89), new Macros(Weight.g(1.2), Weight.g(20), Weight.g(0.24))),
+      ),
     )
   })
 

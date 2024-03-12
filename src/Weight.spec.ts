@@ -16,7 +16,7 @@ describe("Weight", () => {
 
       const result = weight.format()
 
-      expect(result).toEqual("999 g")
+      expect(result).toEqual("999.00 g")
     })
 
     it("formats in mg", () => {
@@ -34,5 +34,13 @@ describe("Weight", () => {
     const proportion = proteinsFor100g.proportionFor(Weight.g(200))
 
     expect(proportion).toEqual(Weight.g(25))
+  })
+
+  it("to kg in number", () => {
+    const oneKilo = Weight.kg(1)
+
+    const number = oneKilo.toNumberInKg()
+
+    expect(number).toEqual(1)
   })
 })

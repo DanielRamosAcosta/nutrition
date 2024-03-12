@@ -4,6 +4,8 @@ import { IngredientId } from "./IngredientId.js"
 import { Ingredient } from "./Ingredient.js"
 import { Nutriments } from "./Nutriments.js"
 import { Weight } from "./Weight.js"
+import { Macros } from "./Macros.js"
+import { Energy } from "./Energy.js"
 
 export class IngredientRepositoryFileSystem implements IngredientRepository {
   private readonly cacheDirectory = "/Users/danielramos/Documents/repos/mines/nutrition/src/cache"
@@ -20,10 +22,13 @@ export class IngredientRepositoryFileSystem implements IngredientRepository {
     return new Ingredient(
       id,
       s.name,
-      new Nutriments(
-        new Weight(s.nutriments.proteins.amount),
-        new Weight(s.nutriments.carbohydrates.amount),
-        new Weight(s.nutriments.fat.amount),
+      Nutriments.create(
+        Energy.kcal(s.nutriments.energy.amount),
+        new Macros(
+          new Weight(s.nutriments.macros.proteins.amount),
+          new Weight(s.nutriments.macros.carbs.amount),
+          new Weight(s.nutriments.macros.fats.amount),
+        ),
       ),
     )
   }

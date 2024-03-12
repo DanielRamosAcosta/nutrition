@@ -3,13 +3,13 @@
 exports[`MacronutrientsCalculator > macros(FEMALE 70 INTENSE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.294,
+    "amount": 294,
   },
   "fats": Weight {
-    "amount": 0.07,
+    "amount": 70,
   },
   "proteins": Weight {
-    "amount": 0.14,
+    "amount": 140,
   },
 }
 `;
@@ -17,13 +17,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 70 INTENSE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.224,
+    "amount": 224,
   },
   "fats": Weight {
-    "amount": 0.063,
+    "amount": 63,
   },
   "proteins": Weight {
-    "amount": 0.154,
+    "amount": 154,
   },
 }
 `;
@@ -31,13 +31,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 70 INTENSE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.245,
+    "amount": 245,
   },
   "fats": Weight {
-    "amount": 0.077,
+    "amount": 77,
   },
   "proteins": Weight {
-    "amount": 0.098,
+    "amount": 98,
   },
 }
 `;
@@ -45,13 +45,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 70 LIGHT GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.245,
+    "amount": 245,
   },
   "fats": Weight {
-    "amount": 0.056,
+    "amount": 56,
   },
   "proteins": Weight {
-    "amount": 0.098,
+    "amount": 98,
   },
 }
 `;
@@ -59,13 +59,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 70 LIGHT LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.175,
+    "amount": 175,
   },
   "fats": Weight {
-    "amount": 0.056,
+    "amount": 56,
   },
   "proteins": Weight {
-    "amount": 0.112,
+    "amount": 112,
   },
 }
 `;
@@ -73,13 +73,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 70 LIGHT MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.175,
+    "amount": 175,
   },
   "fats": Weight {
-    "amount": 0.07,
+    "amount": 70,
   },
   "proteins": Weight {
-    "amount": 0.084,
+    "amount": 84,
   },
 }
 `;
@@ -87,13 +87,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 70 MODERATE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.273,
+    "amount": 273,
   },
   "fats": Weight {
-    "amount": 0.07,
+    "amount": 70,
   },
   "proteins": Weight {
-    "amount": 0.112,
+    "amount": 112,
   },
 }
 `;
@@ -101,13 +101,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 70 MODERATE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.196,
+    "amount": 196,
   },
   "fats": Weight {
-    "amount": 0.056,
+    "amount": 56,
   },
   "proteins": Weight {
-    "amount": 0.14,
+    "amount": 140,
   },
 }
 `;
@@ -115,13 +115,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 70 MODERATE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.21,
+    "amount": 210,
   },
   "fats": Weight {
-    "amount": 0.07,
+    "amount": 70,
   },
   "proteins": Weight {
-    "amount": 0.084,
+    "amount": 84,
   },
 }
 `;
@@ -129,13 +129,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 70 SEDENTARY GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.21,
+    "amount": 210,
   },
   "fats": Weight {
-    "amount": 0.056,
+    "amount": 56,
   },
   "proteins": Weight {
-    "amount": 0.084,
+    "amount": 84,
   },
 }
 `;
@@ -143,13 +143,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 70 SEDENTARY LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.14,
+    "amount": 140,
   },
   "fats": Weight {
-    "amount": 0.056,
+    "amount": 56,
   },
   "proteins": Weight {
-    "amount": 0.084,
+    "amount": 84,
   },
 }
 `;
@@ -157,13 +157,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 70 SEDENTARY MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.175,
+    "amount": 175,
   },
   "fats": Weight {
-    "amount": 0.07,
+    "amount": 70,
   },
   "proteins": Weight {
-    "amount": 0.084,
+    "amount": 84,
   },
 }
 `;
@@ -171,13 +171,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 70 VERY_INTENSE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.315,
+    "amount": 315,
   },
   "fats": Weight {
-    "amount": 0.084,
+    "amount": 84,
   },
   "proteins": Weight {
-    "amount": 0.154,
+    "amount": 154,
   },
 }
 `;
@@ -185,13 +185,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 70 VERY_INTENSE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.245,
+    "amount": 245,
   },
   "fats": Weight {
-    "amount": 0.063,
+    "amount": 63,
   },
   "proteins": Weight {
-    "amount": 0.175,
+    "amount": 175,
   },
 }
 `;
@@ -199,13 +199,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 70 VERY_INTENSE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.28,
+    "amount": 280,
   },
   "fats": Weight {
-    "amount": 0.077,
+    "amount": 77,
   },
   "proteins": Weight {
-    "amount": 0.112,
+    "amount": 112,
   },
 }
 `;
@@ -213,13 +213,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 80 INTENSE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.336,
+    "amount": 336,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.16,
+    "amount": 160,
   },
 }
 `;
@@ -227,13 +227,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 80 INTENSE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.256,
+    "amount": 256,
   },
   "fats": Weight {
-    "amount": 0.072,
+    "amount": 72,
   },
   "proteins": Weight {
-    "amount": 0.176,
+    "amount": 176,
   },
 }
 `;
@@ -241,13 +241,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 80 INTENSE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.28,
+    "amount": 280,
   },
   "fats": Weight {
-    "amount": 0.088,
+    "amount": 88,
   },
   "proteins": Weight {
-    "amount": 0.112,
+    "amount": 112,
   },
 }
 `;
@@ -255,13 +255,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 80 LIGHT GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.28,
+    "amount": 280,
   },
   "fats": Weight {
-    "amount": 0.064,
+    "amount": 64,
   },
   "proteins": Weight {
-    "amount": 0.112,
+    "amount": 112,
   },
 }
 `;
@@ -269,13 +269,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 80 LIGHT LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.2,
+    "amount": 200,
   },
   "fats": Weight {
-    "amount": 0.064,
+    "amount": 64,
   },
   "proteins": Weight {
-    "amount": 0.128,
+    "amount": 128,
   },
 }
 `;
@@ -283,13 +283,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 80 LIGHT MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.2,
+    "amount": 200,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.096,
+    "amount": 96,
   },
 }
 `;
@@ -297,13 +297,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 80 MODERATE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.312,
+    "amount": 312,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.128,
+    "amount": 128,
   },
 }
 `;
@@ -311,13 +311,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 80 MODERATE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.224,
+    "amount": 224,
   },
   "fats": Weight {
-    "amount": 0.064,
+    "amount": 64,
   },
   "proteins": Weight {
-    "amount": 0.16,
+    "amount": 160,
   },
 }
 `;
@@ -325,13 +325,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 80 MODERATE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.24,
+    "amount": 240,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.096,
+    "amount": 96,
   },
 }
 `;
@@ -339,13 +339,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 80 SEDENTARY GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.24,
+    "amount": 240,
   },
   "fats": Weight {
-    "amount": 0.064,
+    "amount": 64,
   },
   "proteins": Weight {
-    "amount": 0.096,
+    "amount": 96,
   },
 }
 `;
@@ -353,13 +353,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 80 SEDENTARY LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.16,
+    "amount": 160,
   },
   "fats": Weight {
-    "amount": 0.064,
+    "amount": 64,
   },
   "proteins": Weight {
-    "amount": 0.096,
+    "amount": 96,
   },
 }
 `;
@@ -367,13 +367,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 80 SEDENTARY MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.2,
+    "amount": 200,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.096,
+    "amount": 96,
   },
 }
 `;
@@ -381,13 +381,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 80 VERY_INTENSE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.36,
+    "amount": 360,
   },
   "fats": Weight {
-    "amount": 0.096,
+    "amount": 96,
   },
   "proteins": Weight {
-    "amount": 0.176,
+    "amount": 176,
   },
 }
 `;
@@ -395,13 +395,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 80 VERY_INTENSE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.28,
+    "amount": 280,
   },
   "fats": Weight {
-    "amount": 0.072,
+    "amount": 72,
   },
   "proteins": Weight {
-    "amount": 0.2,
+    "amount": 200,
   },
 }
 `;
@@ -409,13 +409,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 80 VERY_INTENSE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.32,
+    "amount": 320,
   },
   "fats": Weight {
-    "amount": 0.088,
+    "amount": 88,
   },
   "proteins": Weight {
-    "amount": 0.128,
+    "amount": 128,
   },
 }
 `;
@@ -423,13 +423,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 90 INTENSE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.378,
+    "amount": 378,
   },
   "fats": Weight {
-    "amount": 0.09,
+    "amount": 90,
   },
   "proteins": Weight {
-    "amount": 0.18,
+    "amount": 180,
   },
 }
 `;
@@ -437,13 +437,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 90 INTENSE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.288,
+    "amount": 288,
   },
   "fats": Weight {
-    "amount": 0.081,
+    "amount": 81,
   },
   "proteins": Weight {
-    "amount": 0.19800000000000004,
+    "amount": 198.00000000000003,
   },
 }
 `;
@@ -451,13 +451,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 90 INTENSE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.315,
+    "amount": 315,
   },
   "fats": Weight {
-    "amount": 0.09900000000000002,
+    "amount": 99.00000000000001,
   },
   "proteins": Weight {
-    "amount": 0.12599999999999997,
+    "amount": 125.99999999999999,
   },
 }
 `;
@@ -465,13 +465,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 90 LIGHT GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.315,
+    "amount": 315,
   },
   "fats": Weight {
-    "amount": 0.072,
+    "amount": 72,
   },
   "proteins": Weight {
-    "amount": 0.12599999999999997,
+    "amount": 125.99999999999999,
   },
 }
 `;
@@ -479,13 +479,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 90 LIGHT LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.225,
+    "amount": 225,
   },
   "fats": Weight {
-    "amount": 0.072,
+    "amount": 72,
   },
   "proteins": Weight {
-    "amount": 0.144,
+    "amount": 144,
   },
 }
 `;
@@ -493,13 +493,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 90 LIGHT MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.225,
+    "amount": 225,
   },
   "fats": Weight {
-    "amount": 0.09,
+    "amount": 90,
   },
   "proteins": Weight {
-    "amount": 0.108,
+    "amount": 108,
   },
 }
 `;
@@ -507,13 +507,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 90 MODERATE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.351,
+    "amount": 351,
   },
   "fats": Weight {
-    "amount": 0.09,
+    "amount": 90,
   },
   "proteins": Weight {
-    "amount": 0.144,
+    "amount": 144,
   },
 }
 `;
@@ -521,13 +521,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 90 MODERATE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.25199999999999995,
+    "amount": 251.99999999999997,
   },
   "fats": Weight {
-    "amount": 0.072,
+    "amount": 72,
   },
   "proteins": Weight {
-    "amount": 0.18,
+    "amount": 180,
   },
 }
 `;
@@ -535,13 +535,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 90 MODERATE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.27,
+    "amount": 270,
   },
   "fats": Weight {
-    "amount": 0.09,
+    "amount": 90,
   },
   "proteins": Weight {
-    "amount": 0.108,
+    "amount": 108,
   },
 }
 `;
@@ -549,13 +549,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 90 SEDENTARY GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.27,
+    "amount": 270,
   },
   "fats": Weight {
-    "amount": 0.072,
+    "amount": 72,
   },
   "proteins": Weight {
-    "amount": 0.108,
+    "amount": 108,
   },
 }
 `;
@@ -563,13 +563,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 90 SEDENTARY LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.18,
+    "amount": 180,
   },
   "fats": Weight {
-    "amount": 0.072,
+    "amount": 72,
   },
   "proteins": Weight {
-    "amount": 0.108,
+    "amount": 108,
   },
 }
 `;
@@ -577,13 +577,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 90 SEDENTARY MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.225,
+    "amount": 225,
   },
   "fats": Weight {
-    "amount": 0.09,
+    "amount": 90,
   },
   "proteins": Weight {
-    "amount": 0.108,
+    "amount": 108,
   },
 }
 `;
@@ -591,13 +591,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 90 VERY_INTENSE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.405,
+    "amount": 405,
   },
   "fats": Weight {
-    "amount": 0.108,
+    "amount": 108,
   },
   "proteins": Weight {
-    "amount": 0.19800000000000004,
+    "amount": 198.00000000000003,
   },
 }
 `;
@@ -605,13 +605,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 90 VERY_INTENSE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.315,
+    "amount": 315,
   },
   "fats": Weight {
-    "amount": 0.081,
+    "amount": 81,
   },
   "proteins": Weight {
-    "amount": 0.225,
+    "amount": 225,
   },
 }
 `;
@@ -619,13 +619,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 90 VERY_INTENSE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.36,
+    "amount": 360,
   },
   "fats": Weight {
-    "amount": 0.09900000000000002,
+    "amount": 99.00000000000001,
   },
   "proteins": Weight {
-    "amount": 0.144,
+    "amount": 144,
   },
 }
 `;
@@ -633,13 +633,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 100 INTENSE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.42,
+    "amount": 420,
   },
   "fats": Weight {
-    "amount": 0.1,
+    "amount": 100,
   },
   "proteins": Weight {
-    "amount": 0.2,
+    "amount": 200,
   },
 }
 `;
@@ -647,13 +647,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 100 INTENSE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.32,
+    "amount": 320,
   },
   "fats": Weight {
-    "amount": 0.09,
+    "amount": 90,
   },
   "proteins": Weight {
-    "amount": 0.22000000000000003,
+    "amount": 220.00000000000003,
   },
 }
 `;
@@ -661,13 +661,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 100 INTENSE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.35,
+    "amount": 350,
   },
   "fats": Weight {
-    "amount": 0.11000000000000001,
+    "amount": 110.00000000000001,
   },
   "proteins": Weight {
-    "amount": 0.14,
+    "amount": 140,
   },
 }
 `;
@@ -675,13 +675,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 100 LIGHT GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.35,
+    "amount": 350,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.14,
+    "amount": 140,
   },
 }
 `;
@@ -689,13 +689,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 100 LIGHT LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.25,
+    "amount": 250,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.16,
+    "amount": 160,
   },
 }
 `;
@@ -703,13 +703,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 100 LIGHT MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.25,
+    "amount": 250,
   },
   "fats": Weight {
-    "amount": 0.1,
+    "amount": 100,
   },
   "proteins": Weight {
-    "amount": 0.12,
+    "amount": 120,
   },
 }
 `;
@@ -717,13 +717,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 100 MODERATE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.39,
+    "amount": 390,
   },
   "fats": Weight {
-    "amount": 0.1,
+    "amount": 100,
   },
   "proteins": Weight {
-    "amount": 0.16,
+    "amount": 160,
   },
 }
 `;
@@ -731,13 +731,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 100 MODERATE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.28,
+    "amount": 280,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.2,
+    "amount": 200,
   },
 }
 `;
@@ -745,13 +745,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 100 MODERATE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.3,
+    "amount": 300,
   },
   "fats": Weight {
-    "amount": 0.1,
+    "amount": 100,
   },
   "proteins": Weight {
-    "amount": 0.12,
+    "amount": 120,
   },
 }
 `;
@@ -759,13 +759,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 100 SEDENTARY GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.3,
+    "amount": 300,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.12,
+    "amount": 120,
   },
 }
 `;
@@ -773,13 +773,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 100 SEDENTARY LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.2,
+    "amount": 200,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.12,
+    "amount": 120,
   },
 }
 `;
@@ -787,13 +787,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 100 SEDENTARY MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.25,
+    "amount": 250,
   },
   "fats": Weight {
-    "amount": 0.1,
+    "amount": 100,
   },
   "proteins": Weight {
-    "amount": 0.12,
+    "amount": 120,
   },
 }
 `;
@@ -801,13 +801,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 100 VERY_INTENSE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.45,
+    "amount": 450,
   },
   "fats": Weight {
-    "amount": 0.12,
+    "amount": 120,
   },
   "proteins": Weight {
-    "amount": 0.22000000000000003,
+    "amount": 220.00000000000003,
   },
 }
 `;
@@ -815,13 +815,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 100 VERY_INTENSE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.35,
+    "amount": 350,
   },
   "fats": Weight {
-    "amount": 0.09,
+    "amount": 90,
   },
   "proteins": Weight {
-    "amount": 0.25,
+    "amount": 250,
   },
 }
 `;
@@ -829,13 +829,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(FEMALE 100 VERY_INTENSE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.4,
+    "amount": 400,
   },
   "fats": Weight {
-    "amount": 0.11000000000000001,
+    "amount": 110.00000000000001,
   },
   "proteins": Weight {
-    "amount": 0.16,
+    "amount": 160,
   },
 }
 `;
@@ -843,13 +843,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 70 INTENSE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.294,
+    "amount": 294,
   },
   "fats": Weight {
-    "amount": 0.056,
+    "amount": 56,
   },
   "proteins": Weight {
-    "amount": 0.14,
+    "amount": 140,
   },
 }
 `;
@@ -857,13 +857,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 70 INTENSE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.224,
+    "amount": 224,
   },
   "fats": Weight {
-    "amount": 0.049,
+    "amount": 49,
   },
   "proteins": Weight {
-    "amount": 0.154,
+    "amount": 154,
   },
 }
 `;
@@ -871,13 +871,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 70 INTENSE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.245,
+    "amount": 245,
   },
   "fats": Weight {
-    "amount": 0.07,
+    "amount": 70,
   },
   "proteins": Weight {
-    "amount": 0.098,
+    "amount": 98,
   },
 }
 `;
@@ -885,13 +885,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 70 LIGHT GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.245,
+    "amount": 245,
   },
   "fats": Weight {
-    "amount": 0.049,
+    "amount": 49,
   },
   "proteins": Weight {
-    "amount": 0.098,
+    "amount": 98,
   },
 }
 `;
@@ -899,13 +899,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 70 LIGHT LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.175,
+    "amount": 175,
   },
   "fats": Weight {
-    "amount": 0.042,
+    "amount": 42,
   },
   "proteins": Weight {
-    "amount": 0.112,
+    "amount": 112,
   },
 }
 `;
@@ -913,13 +913,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 70 LIGHT MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.175,
+    "amount": 175,
   },
   "fats": Weight {
-    "amount": 0.056,
+    "amount": 56,
   },
   "proteins": Weight {
-    "amount": 0.084,
+    "amount": 84,
   },
 }
 `;
@@ -927,13 +927,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 70 MODERATE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.273,
+    "amount": 273,
   },
   "fats": Weight {
-    "amount": 0.056,
+    "amount": 56,
   },
   "proteins": Weight {
-    "amount": 0.112,
+    "amount": 112,
   },
 }
 `;
@@ -941,13 +941,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 70 MODERATE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.196,
+    "amount": 196,
   },
   "fats": Weight {
-    "amount": 0.042,
+    "amount": 42,
   },
   "proteins": Weight {
-    "amount": 0.14,
+    "amount": 140,
   },
 }
 `;
@@ -955,13 +955,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 70 MODERATE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.21,
+    "amount": 210,
   },
   "fats": Weight {
-    "amount": 0.056,
+    "amount": 56,
   },
   "proteins": Weight {
-    "amount": 0.084,
+    "amount": 84,
   },
 }
 `;
@@ -969,13 +969,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 70 SEDENTARY GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.21,
+    "amount": 210,
   },
   "fats": Weight {
-    "amount": 0.049,
+    "amount": 49,
   },
   "proteins": Weight {
-    "amount": 0.084,
+    "amount": 84,
   },
 }
 `;
@@ -983,13 +983,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 70 SEDENTARY LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.14,
+    "amount": 140,
   },
   "fats": Weight {
-    "amount": 0.042,
+    "amount": 42,
   },
   "proteins": Weight {
-    "amount": 0.084,
+    "amount": 84,
   },
 }
 `;
@@ -997,13 +997,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 70 SEDENTARY MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.175,
+    "amount": 175,
   },
   "fats": Weight {
-    "amount": 0.056,
+    "amount": 56,
   },
   "proteins": Weight {
-    "amount": 0.084,
+    "amount": 84,
   },
 }
 `;
@@ -1011,13 +1011,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 70 VERY_INTENSE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.315,
+    "amount": 315,
   },
   "fats": Weight {
-    "amount": 0.07,
+    "amount": 70,
   },
   "proteins": Weight {
-    "amount": 0.154,
+    "amount": 154,
   },
 }
 `;
@@ -1025,13 +1025,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 70 VERY_INTENSE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.245,
+    "amount": 245,
   },
   "fats": Weight {
-    "amount": 0.049,
+    "amount": 49,
   },
   "proteins": Weight {
-    "amount": 0.175,
+    "amount": 175,
   },
 }
 `;
@@ -1039,13 +1039,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 70 VERY_INTENSE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.28,
+    "amount": 280,
   },
   "fats": Weight {
-    "amount": 0.07,
+    "amount": 70,
   },
   "proteins": Weight {
-    "amount": 0.112,
+    "amount": 112,
   },
 }
 `;
@@ -1053,13 +1053,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 80 INTENSE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.336,
+    "amount": 336,
   },
   "fats": Weight {
-    "amount": 0.064,
+    "amount": 64,
   },
   "proteins": Weight {
-    "amount": 0.16,
+    "amount": 160,
   },
 }
 `;
@@ -1067,13 +1067,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 80 INTENSE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.256,
+    "amount": 256,
   },
   "fats": Weight {
-    "amount": 0.056,
+    "amount": 56,
   },
   "proteins": Weight {
-    "amount": 0.176,
+    "amount": 176,
   },
 }
 `;
@@ -1081,13 +1081,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 80 INTENSE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.28,
+    "amount": 280,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.112,
+    "amount": 112,
   },
 }
 `;
@@ -1095,13 +1095,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 80 LIGHT GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.28,
+    "amount": 280,
   },
   "fats": Weight {
-    "amount": 0.056,
+    "amount": 56,
   },
   "proteins": Weight {
-    "amount": 0.112,
+    "amount": 112,
   },
 }
 `;
@@ -1109,13 +1109,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 80 LIGHT LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.2,
+    "amount": 200,
   },
   "fats": Weight {
-    "amount": 0.048,
+    "amount": 48,
   },
   "proteins": Weight {
-    "amount": 0.128,
+    "amount": 128,
   },
 }
 `;
@@ -1123,13 +1123,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 80 LIGHT MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.2,
+    "amount": 200,
   },
   "fats": Weight {
-    "amount": 0.064,
+    "amount": 64,
   },
   "proteins": Weight {
-    "amount": 0.096,
+    "amount": 96,
   },
 }
 `;
@@ -1137,13 +1137,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 80 MODERATE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.312,
+    "amount": 312,
   },
   "fats": Weight {
-    "amount": 0.064,
+    "amount": 64,
   },
   "proteins": Weight {
-    "amount": 0.128,
+    "amount": 128,
   },
 }
 `;
@@ -1151,13 +1151,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 80 MODERATE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.224,
+    "amount": 224,
   },
   "fats": Weight {
-    "amount": 0.048,
+    "amount": 48,
   },
   "proteins": Weight {
-    "amount": 0.16,
+    "amount": 160,
   },
 }
 `;
@@ -1165,13 +1165,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 80 MODERATE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.24,
+    "amount": 240,
   },
   "fats": Weight {
-    "amount": 0.064,
+    "amount": 64,
   },
   "proteins": Weight {
-    "amount": 0.096,
+    "amount": 96,
   },
 }
 `;
@@ -1179,13 +1179,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 80 SEDENTARY GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.24,
+    "amount": 240,
   },
   "fats": Weight {
-    "amount": 0.056,
+    "amount": 56,
   },
   "proteins": Weight {
-    "amount": 0.096,
+    "amount": 96,
   },
 }
 `;
@@ -1193,13 +1193,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 80 SEDENTARY LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.16,
+    "amount": 160,
   },
   "fats": Weight {
-    "amount": 0.048,
+    "amount": 48,
   },
   "proteins": Weight {
-    "amount": 0.096,
+    "amount": 96,
   },
 }
 `;
@@ -1207,13 +1207,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 80 SEDENTARY MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.2,
+    "amount": 200,
   },
   "fats": Weight {
-    "amount": 0.064,
+    "amount": 64,
   },
   "proteins": Weight {
-    "amount": 0.096,
+    "amount": 96,
   },
 }
 `;
@@ -1221,13 +1221,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 80 VERY_INTENSE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.36,
+    "amount": 360,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.176,
+    "amount": 176,
   },
 }
 `;
@@ -1235,13 +1235,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 80 VERY_INTENSE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.28,
+    "amount": 280,
   },
   "fats": Weight {
-    "amount": 0.056,
+    "amount": 56,
   },
   "proteins": Weight {
-    "amount": 0.2,
+    "amount": 200,
   },
 }
 `;
@@ -1249,13 +1249,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 80 VERY_INTENSE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.32,
+    "amount": 320,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.128,
+    "amount": 128,
   },
 }
 `;
@@ -1263,13 +1263,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 90 INTENSE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.378,
+    "amount": 378,
   },
   "fats": Weight {
-    "amount": 0.072,
+    "amount": 72,
   },
   "proteins": Weight {
-    "amount": 0.18,
+    "amount": 180,
   },
 }
 `;
@@ -1277,13 +1277,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 90 INTENSE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.288,
+    "amount": 288,
   },
   "fats": Weight {
-    "amount": 0.06299999999999999,
+    "amount": 62.99999999999999,
   },
   "proteins": Weight {
-    "amount": 0.19800000000000004,
+    "amount": 198.00000000000003,
   },
 }
 `;
@@ -1291,13 +1291,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 90 INTENSE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.315,
+    "amount": 315,
   },
   "fats": Weight {
-    "amount": 0.09,
+    "amount": 90,
   },
   "proteins": Weight {
-    "amount": 0.12599999999999997,
+    "amount": 125.99999999999999,
   },
 }
 `;
@@ -1305,13 +1305,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 90 LIGHT GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.315,
+    "amount": 315,
   },
   "fats": Weight {
-    "amount": 0.06299999999999999,
+    "amount": 62.99999999999999,
   },
   "proteins": Weight {
-    "amount": 0.12599999999999997,
+    "amount": 125.99999999999999,
   },
 }
 `;
@@ -1319,13 +1319,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 90 LIGHT LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.225,
+    "amount": 225,
   },
   "fats": Weight {
-    "amount": 0.054,
+    "amount": 54,
   },
   "proteins": Weight {
-    "amount": 0.144,
+    "amount": 144,
   },
 }
 `;
@@ -1333,13 +1333,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 90 LIGHT MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.225,
+    "amount": 225,
   },
   "fats": Weight {
-    "amount": 0.072,
+    "amount": 72,
   },
   "proteins": Weight {
-    "amount": 0.108,
+    "amount": 108,
   },
 }
 `;
@@ -1347,13 +1347,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 90 MODERATE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.351,
+    "amount": 351,
   },
   "fats": Weight {
-    "amount": 0.072,
+    "amount": 72,
   },
   "proteins": Weight {
-    "amount": 0.144,
+    "amount": 144,
   },
 }
 `;
@@ -1361,13 +1361,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 90 MODERATE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.25199999999999995,
+    "amount": 251.99999999999997,
   },
   "fats": Weight {
-    "amount": 0.054,
+    "amount": 54,
   },
   "proteins": Weight {
-    "amount": 0.18,
+    "amount": 180,
   },
 }
 `;
@@ -1375,13 +1375,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 90 MODERATE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.27,
+    "amount": 270,
   },
   "fats": Weight {
-    "amount": 0.072,
+    "amount": 72,
   },
   "proteins": Weight {
-    "amount": 0.108,
+    "amount": 108,
   },
 }
 `;
@@ -1389,13 +1389,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 90 SEDENTARY GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.27,
+    "amount": 270,
   },
   "fats": Weight {
-    "amount": 0.06299999999999999,
+    "amount": 62.99999999999999,
   },
   "proteins": Weight {
-    "amount": 0.108,
+    "amount": 108,
   },
 }
 `;
@@ -1403,13 +1403,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 90 SEDENTARY LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.18,
+    "amount": 180,
   },
   "fats": Weight {
-    "amount": 0.054,
+    "amount": 54,
   },
   "proteins": Weight {
-    "amount": 0.108,
+    "amount": 108,
   },
 }
 `;
@@ -1417,13 +1417,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 90 SEDENTARY MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.225,
+    "amount": 225,
   },
   "fats": Weight {
-    "amount": 0.072,
+    "amount": 72,
   },
   "proteins": Weight {
-    "amount": 0.108,
+    "amount": 108,
   },
 }
 `;
@@ -1431,13 +1431,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 90 VERY_INTENSE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.405,
+    "amount": 405,
   },
   "fats": Weight {
-    "amount": 0.09,
+    "amount": 90,
   },
   "proteins": Weight {
-    "amount": 0.19800000000000004,
+    "amount": 198.00000000000003,
   },
 }
 `;
@@ -1445,13 +1445,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 90 VERY_INTENSE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.315,
+    "amount": 315,
   },
   "fats": Weight {
-    "amount": 0.06299999999999999,
+    "amount": 62.99999999999999,
   },
   "proteins": Weight {
-    "amount": 0.225,
+    "amount": 225,
   },
 }
 `;
@@ -1459,13 +1459,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 90 VERY_INTENSE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.36,
+    "amount": 360,
   },
   "fats": Weight {
-    "amount": 0.09,
+    "amount": 90,
   },
   "proteins": Weight {
-    "amount": 0.144,
+    "amount": 144,
   },
 }
 `;
@@ -1473,13 +1473,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 100 INTENSE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.42,
+    "amount": 420,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.2,
+    "amount": 200,
   },
 }
 `;
@@ -1487,13 +1487,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 100 INTENSE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.32,
+    "amount": 320,
   },
   "fats": Weight {
-    "amount": 0.07,
+    "amount": 70,
   },
   "proteins": Weight {
-    "amount": 0.22000000000000003,
+    "amount": 220.00000000000003,
   },
 }
 `;
@@ -1501,13 +1501,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 100 INTENSE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.35,
+    "amount": 350,
   },
   "fats": Weight {
-    "amount": 0.1,
+    "amount": 100,
   },
   "proteins": Weight {
-    "amount": 0.14,
+    "amount": 140,
   },
 }
 `;
@@ -1515,13 +1515,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 100 LIGHT GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.35,
+    "amount": 350,
   },
   "fats": Weight {
-    "amount": 0.07,
+    "amount": 70,
   },
   "proteins": Weight {
-    "amount": 0.14,
+    "amount": 140,
   },
 }
 `;
@@ -1529,13 +1529,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 100 LIGHT LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.25,
+    "amount": 250,
   },
   "fats": Weight {
-    "amount": 0.06,
+    "amount": 60,
   },
   "proteins": Weight {
-    "amount": 0.16,
+    "amount": 160,
   },
 }
 `;
@@ -1543,13 +1543,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 100 LIGHT MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.25,
+    "amount": 250,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.12,
+    "amount": 120,
   },
 }
 `;
@@ -1557,13 +1557,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 100 MODERATE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.39,
+    "amount": 390,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.16,
+    "amount": 160,
   },
 }
 `;
@@ -1571,13 +1571,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 100 MODERATE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.28,
+    "amount": 280,
   },
   "fats": Weight {
-    "amount": 0.06,
+    "amount": 60,
   },
   "proteins": Weight {
-    "amount": 0.2,
+    "amount": 200,
   },
 }
 `;
@@ -1585,13 +1585,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 100 MODERATE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.3,
+    "amount": 300,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.12,
+    "amount": 120,
   },
 }
 `;
@@ -1599,13 +1599,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 100 SEDENTARY GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.3,
+    "amount": 300,
   },
   "fats": Weight {
-    "amount": 0.07,
+    "amount": 70,
   },
   "proteins": Weight {
-    "amount": 0.12,
+    "amount": 120,
   },
 }
 `;
@@ -1613,13 +1613,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 100 SEDENTARY LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.2,
+    "amount": 200,
   },
   "fats": Weight {
-    "amount": 0.06,
+    "amount": 60,
   },
   "proteins": Weight {
-    "amount": 0.12,
+    "amount": 120,
   },
 }
 `;
@@ -1627,13 +1627,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 100 SEDENTARY MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.25,
+    "amount": 250,
   },
   "fats": Weight {
-    "amount": 0.08,
+    "amount": 80,
   },
   "proteins": Weight {
-    "amount": 0.12,
+    "amount": 120,
   },
 }
 `;
@@ -1641,13 +1641,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 100 VERY_INTENSE GAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.45,
+    "amount": 450,
   },
   "fats": Weight {
-    "amount": 0.1,
+    "amount": 100,
   },
   "proteins": Weight {
-    "amount": 0.22000000000000003,
+    "amount": 220.00000000000003,
   },
 }
 `;
@@ -1655,13 +1655,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 100 VERY_INTENSE LOST) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.35,
+    "amount": 350,
   },
   "fats": Weight {
-    "amount": 0.07,
+    "amount": 70,
   },
   "proteins": Weight {
-    "amount": 0.25,
+    "amount": 250,
   },
 }
 `;
@@ -1669,13 +1669,13 @@ Macros {
 exports[`MacronutrientsCalculator > macros(MALE 100 VERY_INTENSE MAINTAIN) 1`] = `
 Macros {
   "carbs": Weight {
-    "amount": 0.4,
+    "amount": 400,
   },
   "fats": Weight {
-    "amount": 0.1,
+    "amount": 100,
   },
   "proteins": Weight {
-    "amount": 0.16,
+    "amount": 160,
   },
 }
 `;
