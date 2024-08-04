@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8410505272017"
+  },
+  "name": "Garbanzos",
+  "nutriments": {
+    "energy": {
+      "amount": 95
+    },
+    "macros": {
+      "proteins": {
+        "amount": 5.4
+      },
+      "carbs": {
+        "amount": 12
+      },
+      "fats": {
+        "amount": 1.9
+      }
+    }
+  }
+}

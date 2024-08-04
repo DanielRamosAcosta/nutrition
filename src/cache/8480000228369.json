@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8480000228369"
+  },
+  "name": "Crema de cacahuete Amendoim",
+  "nutriments": {
+    "energy": {
+      "amount": 618
+    },
+    "macros": {
+      "proteins": {
+        "amount": 30
+      },
+      "carbs": {
+        "amount": 7
+      },
+      "fats": {
+        "amount": 50
+      }
+    }
+  }
+}

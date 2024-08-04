@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8480000826466"
+  },
+  "name": "Pan de molde espelta 100% integral natural",
+  "nutriments": {
+    "energy": {
+      "amount": 273
+    },
+    "macros": {
+      "proteins": {
+        "amount": 10.6
+      },
+      "carbs": {
+        "amount": 45.4
+      },
+      "fats": {
+        "amount": 3.8
+      }
+    }
+  }
+}

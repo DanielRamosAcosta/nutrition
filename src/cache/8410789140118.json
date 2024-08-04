@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8410789140118"
+  },
+  "name": "Tofu firme",
+  "nutriments": {
+    "energy": {
+      "amount": 110
+    },
+    "macros": {
+      "proteins": {
+        "amount": 11.1
+      },
+      "carbs": {
+        "amount": 0.9
+      },
+      "fats": {
+        "amount": 6.9
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "2381"
+  },
+  "name": "Cebolla",
+  "nutriments": {
+    "energy": {
+      "amount": 26
+    },
+    "macros": {
+      "proteins": {
+        "amount": 1.125
+      },
+      "carbs": {
+        "amount": 5.3
+      },
+      "fats": {
+        "amount": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8480000607225"
+  },
+  "name": "Negro 85%",
+  "nutriments": {
+    "energy": {
+      "amount": 597
+    },
+    "macros": {
+      "proteins": {
+        "amount": 12
+      },
+      "carbs": {
+        "amount": 20
+      },
+      "fats": {
+        "amount": 49
+      }
+    }
+  }
+}

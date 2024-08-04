@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8480000611628"
+  },
+  "name": "Filetes de Merluza Argentina",
+  "nutriments": {
+    "energy": {
+      "amount": 75
+    },
+    "macros": {
+      "proteins": {
+        "amount": 15.10000038147
+      },
+      "carbs": {
+        "amount": 0.80000001192093
+      },
+      "fats": {
+        "amount": 1.2999999523163
+      }
+    }
+  }
+}

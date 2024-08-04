@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8480000212566"
+  },
+  "name": "Postre lácteo +proteínas natural 0% m.g 10 g proteínas",
+  "nutriments": {
+    "energy": {
+      "amount": 52
+    },
+    "macros": {
+      "proteins": {
+        "amount": 10
+      },
+      "carbs": {
+        "amount": 3.1
+      },
+      "fats": {
+        "amount": 0.5
+      }
+    }
+  }
+}

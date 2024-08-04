@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "2201"
+  },
+  "name": "Nuez",
+  "nutriments": {
+    "energy": {
+      "amount": 592
+    },
+    "macros": {
+      "proteins": {
+        "amount": 14
+      },
+      "carbs": {
+        "amount": 3.3
+      },
+      "fats": {
+        "amount": 123.88000000000001
+      }
+    }
+  }
+}

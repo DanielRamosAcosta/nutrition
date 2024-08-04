@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "2185"
+  },
+  "name": "Cacahuete, crudo, con cáscara",
+  "nutriments": {
+    "energy": {
+      "amount": 541
+    },
+    "macros": {
+      "proteins": {
+        "amount": 25.23
+      },
+      "carbs": {
+        "amount": 7.91
+      },
+      "fats": {
+        "amount": 83.76
+      }
+    }
+  }
+}

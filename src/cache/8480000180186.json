@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8480000180186"
+  },
+  "name": "Atún claro al natural",
+  "nutriments": {
+    "energy": {
+      "amount": 83
+    },
+    "macros": {
+      "proteins": {
+        "amount": 16
+      },
+      "carbs": {
+        "amount": 0.7
+      },
+      "fats": {
+        "amount": 0.9
+      }
+    }
+  }
+}

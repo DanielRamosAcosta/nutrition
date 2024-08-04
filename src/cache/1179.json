@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "1179"
+  },
+  "name": "Espárrago, verde",
+  "nutriments": {
+    "energy": {
+      "amount": 25
+    },
+    "macros": {
+      "proteins": {
+        "amount": 2.9
+      },
+      "carbs": {
+        "amount": 2
+      },
+      "fats": {
+        "amount": 0.4
+      }
+    }
+  }
+}

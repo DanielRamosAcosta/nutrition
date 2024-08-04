@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8480000207258"
+  },
+  "name": "Mantequilla",
+  "nutriments": {
+    "energy": {
+      "amount": 743
+    },
+    "macros": {
+      "proteins": {
+        "amount": 0.5
+      },
+      "carbs": {
+        "amount": 0.8
+      },
+      "fats": {
+        "amount": 82
+      }
+    }
+  }
+}

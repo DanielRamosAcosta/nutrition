@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8480000160744"
+  },
+  "name": "Tomate doble concentrado",
+  "nutriments": {
+    "energy": {
+      "amount": null
+    },
+    "macros": {
+      "proteins": {
+        "amount": 5.3
+      },
+      "carbs": {
+        "amount": 21
+      },
+      "fats": {
+        "amount": 0.6
+      }
+    }
+  }
+}

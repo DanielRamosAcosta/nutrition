@@ -1,6 +1,10 @@
 import { Weight } from "./Weight.js"
 
 export class Energy {
+  public static add(a: Energy, b: Energy) {
+    return a.add(b)
+  }
+
   public static parse(amount: number, unit: string) {
     if (unit === "kcal") return Energy.kcal(amount)
     if (unit === "kJ") return Energy.kj(amount)
@@ -32,5 +36,17 @@ export class Energy {
 
   toString() {
     return `${Math.round(this.amount)} kcal`
+  }
+
+  toKcalInNumber() {
+    return this.amount
+  }
+
+  greaterThan(other: Energy) {
+    return this.amount > other.amount
+  }
+
+  divideBy(amount: number) {
+    return new Energy(this.amount / amount)
   }
 }

@@ -13,7 +13,7 @@ export class Ingredient {
     return this.name.length
   }
 
-  format() {
+  getName() {
     return this.name
   }
 

@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "2399"
+  },
+  "name": "Lechuga",
+  "nutriments": {
+    "energy": {
+      "amount": 16
+    },
+    "macros": {
+      "proteins": {
+        "amount": 1.125
+      },
+      "carbs": {
+        "amount": 1.4
+      },
+      "fats": {
+        "amount": 0.49
+      }
+    }
+  }
+}

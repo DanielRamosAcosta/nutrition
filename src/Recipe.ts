@@ -1,8 +1,9 @@
 import { WeightedIngredient } from "./WeightedIngredient.js"
 import { Weight } from "./Weight.js"
 import { Energy } from "./Energy.js"
+import { Nutrible, totalCarbohydrates, totalEnergy, totalFats, totalProteins } from "./Nutrible.js"
 
-export class Recipe {
+export class Recipe implements Nutrible {
   public static empty() {
     return new NoRecipe()
   }
@@ -21,23 +22,48 @@ export class Recipe {
   }
 
   energy() {
-    return this.ingredients.map((i) => i.energy()).reduce((t, c) => t.add(c), Energy.zero())
+    return totalEnergy(this.ingredients)
   }
 
   proteins() {
-    return this.ingredients
-      .map((i) => i.proteins())
-      .reduce((t, c) => {
-        return t.add(c)
-      }, Weight.zero())
+    return totalProteins(this.ingredients)
   }
 
   carbohydrates() {
-    return this.ingredients.map((i) => i.carbohydrates()).reduce((t, c) => t.add(c), Weight.zero())
+    return totalCarbohydrates(this.ingredients)
   }
 
   fats() {
-    return this.ingredients.map((i) => i.fats()).reduce((t, c) => t.add(c), Weight.zero())
+    return totalFats(this.ingredients)
+  }
+
+  toCsv() {
+    const csv = []
+    for (const ingredient of this.ingredients) {
+      csv.push(ingredient.toCsv())
+    }
+    return csv.join("\n")
+  }
+
+  divideBy(number: number) {
+    return new Recipe(
+      this.name,
+      this.ingredients.map((i) => i.divideBy(number)),
+    )
+  }
+
+  hasMoreEnergyThan(recipe: Recipe) {
+    return this.energy().greaterThan(recipe.energy())
+  }
+
+  optimizeFor(energy: Energy, proteins: Weight) {
+    const currentProteins = this.proteins()
+    const highestProteinIngredient = this.ingredients.reduce((a, b) => (a.hasMoreProteinThan(b) ? a : b))
+    const restOfTheIngredients = this.ingredients.filter((i) => i !== highestProteinIngredient)
+
+    highestProteinIngredient.increaseToMatch(proteins)
+
+    return this
   }
 }
 

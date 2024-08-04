@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "14308307"
+  },
+  "name": "Harina de trigo de espelta",
+  "nutriments": {
+    "energy": {
+      "amount": 342
+    },
+    "macros": {
+      "proteins": {
+        "amount": 14
+      },
+      "carbs": {
+        "amount": 63
+      },
+      "fats": {
+        "amount": 1.9
+      }
+    }
+  }
+}

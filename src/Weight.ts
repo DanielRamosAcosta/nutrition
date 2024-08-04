@@ -2,6 +2,10 @@ import { WeightedIngredient } from "./WeightedIngredient.js"
 import { Ingredient } from "./Ingredient.js"
 
 export class Weight {
+  public static add(a: Weight, b: Weight) {
+    return a.add(b)
+  }
+
   constructor(private readonly amount: number) {}
 
   static kg(amount: number) {
@@ -10,6 +14,10 @@ export class Weight {
 
   static g(amount: number) {
     return new Weight(amount)
+  }
+
+  static oneEgg() {
+    return Weight.g(63)
   }
 
   static mg(amount: number) {
@@ -43,6 +51,10 @@ export class Weight {
     return new Weight(this.amount + otherWeight.amount)
   }
 
+  times(n: number) {
+    return new Weight(this.amount * n)
+  }
+
   format() {
     if (this.amount < 1) {
       return Math.round(this.amount * 1_000) + " mg"
@@ -65,5 +77,13 @@ export class Weight {
 
   toNumberInGrams() {
     return this.amount
+  }
+
+  divideBy(number: number) {
+    return new Weight(this.amount / number)
+  }
+
+  greaterThan(weight: Weight) {
+    return this.amount > weight.amount
   }
 }

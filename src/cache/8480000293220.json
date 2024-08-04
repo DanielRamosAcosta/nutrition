@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8480000293220"
+  },
+  "name": "Bebida de Soja",
+  "nutriments": {
+    "energy": {
+      "amount": 31
+    },
+    "macros": {
+      "proteins": {
+        "amount": 3.1
+      },
+      "carbs": {
+        "amount": 0.6
+      },
+      "fats": {
+        "amount": 1.7
+      }
+    }
+  }
+}

@@ -9,7 +9,10 @@ import { Energy } from "./Energy.js"
 
 export class IngredientRepositoryOpenFoodFacts implements IngredientRepository {
   async findBy(id: IngredientId): Promise<Ingredient | undefined> {
-    const response = await fetch(`https://world.openfoodfacts.org/api/v2/product/${id}.json`)
+    const url = `https://world.openfoodfacts.org/api/v2/product/${id}.json`
+    const response = await fetch(url, {
+      signal: AbortSignal.timeout(60000),
+    })
 
     const data: Root = await response.json()
 

@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "4008713756661"
+  },
+  "name": "Copos de avena",
+  "nutriments": {
+    "energy": {
+      "amount": 375
+    },
+    "macros": {
+      "proteins": {
+        "amount": 14
+      },
+      "carbs": {
+        "amount": 59
+      },
+      "fats": {
+        "amount": 7
+      }
+    }
+  }
+}

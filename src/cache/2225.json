@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "2225"
+  },
+  "name": "Fresa",
+  "nutriments": {
+    "energy": {
+      "amount": 36
+    },
+    "macros": {
+      "proteins": {
+        "amount": 0.7
+      },
+      "carbs": {
+        "amount": 7
+      },
+      "fats": {
+        "amount": 0.33499999999999996
+      }
+    }
+  }
+}

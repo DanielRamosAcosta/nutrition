@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "2127"
+  },
+  "name": "Huevo de gallina fresco",
+  "nutriments": {
+    "energy": {
+      "amount": 149
+    },
+    "macros": {
+      "proteins": {
+        "amount": 12.5
+      },
+      "carbs": {
+        "amount": 0
+      },
+      "fats": {
+        "amount": 9.195
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8480000198594"
+  },
+  "name": "Panela",
+  "nutriments": {
+    "energy": {
+      "amount": 376
+    },
+    "macros": {
+      "proteins": {
+        "amount": 0
+      },
+      "carbs": {
+        "amount": 94
+      },
+      "fats": {
+        "amount": 0
+      }
+    }
+  }
+}

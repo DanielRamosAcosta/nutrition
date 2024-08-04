@@ -3,7 +3,13 @@ import { IngredientId } from "./IngredientId.js"
 import { Recipe } from "./Recipe.js"
 import { Weight } from "./Weight.js"
 import { IngredientRepositoryMultiplexer } from "./IngredientRepositoryMultiplexer.js"
-import { DayMealBuilder } from "./DayMeal.js"
+import { DayPlan } from "./DayPlan.js"
+import { Meal } from "./Meal.js"
+import { MealTime } from "./MealTime.js"
+import { MacronutrientsCalculator } from "./MacronutrientsCalculator.js"
+import { Sex } from "./Sex.js"
+import { ActivityLevel } from "./ActivityLevel.js"
+import { MainGoal } from "./MainGoal.js"
 
 describe("example", () => {
   it("example", async () => {
@@ -30,17 +36,68 @@ describe("example", () => {
     const oil = await ingredients.findOrFail(new IngredientId("8480000046406"))
     const yogurt = await ingredients.findOrFail(new IngredientId("8480000212566"))
     const potato = await ingredients.findOrFail(new IngredientId("2403"))
-    const fresas = await ingredients.findOrFail(new IngredientId("2225"))
+    const strawberries = await ingredients.findOrFail(new IngredientId("2225"))
+    const speltBread = await ingredients.findOrFail(new IngredientId("8480000826466"))
+    const chickpeas = await ingredients.findOrFail(new IngredientId("8410505272017"))
+    const guacamole = await ingredients.findOrFail(new IngredientId("8480000038524"))
+    const asparagus = await ingredients.findOrFail(new IngredientId("1179"))
+    const tofu = await ingredients.findOrFail(new IngredientId("8410789140118"))
+    const quinoa = await ingredients.findOrFail(new IngredientId("8480000094308"))
+    const beet = await ingredients.findOrFail(new IngredientId("2416"))
+    const tuna = await ingredients.findOrFail(new IngredientId("8480000180186"))
+    const harinaDeEspelta = await ingredients.findOrFail(new IngredientId("14308307"))
+    const butter = await ingredients.findOrFail(new IngredientId("8480000207258"))
+    const peanut = await ingredients.findOrFail(new IngredientId("2185"))
+    const wallnut = await ingredients.findOrFail(new IngredientId("2201"))
+    const panela = await ingredients.findOrFail(new IngredientId("8480000198594"))
 
-    // añadir yogur con fruta de postre en el almuerzo
+    const macros = MacronutrientsCalculator.calculate(Sex.MALE, Weight.kg(90), ActivityLevel.MODERATE, MainGoal.LOST)
+
+    const porridge = new Recipe("Porridge", [
+      Weight.g(39).of(oats),
+      Weight.g(113).of(soyMilk),
+      Weight.g(30).of(protein),
+      Weight.g(125)
+        .times(1 / 10)
+        .of(chocolate),
+      Weight.g(20).of(peanutButter),
+      Weight.g(150).of(banana),
+    ])
 
     const hakeWithVegetables = new Recipe("Merluza con verduras", [
-      Weight.g(500).of(hake),
+      Weight.g(10).of(oil),
+      Weight.g(400).of(hake),
       Weight.g(200).of(pumpkin),
       Weight.g(200).of(tomato),
       Weight.g(100).of(pepper),
       Weight.g(500).of(potato),
+    ]).divideBy(2)
+
+    const yogurtWithFruit = new Recipe("Yogur con frutas", [Weight.g(125).of(yogurt), Weight.g(100).of(strawberries)])
+
+    const scrambledEggs = new Recipe("Revuelto con verduras", [
+      Weight.g(10).of(oil),
+      Weight.oneEgg().times(2).of(egg),
+      Weight.g(100).of(mushroom),
+      Weight.g(100).of(tomato),
+      Weight.g(100).of(speltBread),
     ])
+
+    const monday = new DayPlan([
+      [MealTime.BREAKFAST, Meal.with(porridge)],
+      [MealTime.LUNCH, Meal.with(hakeWithVegetables, yogurtWithFruit)],
+      [MealTime.DINNER, Meal.with(scrambledEggs)],
+    ])
+
+    const toastsWithChickpeas = new Recipe("Tostadas con Garbanzos", [
+      Weight.g(10).of(guacamole),
+      Weight.g(570)
+        .times(1 / 2)
+        .of(chickpeas),
+      Weight.g(100).of(tomato),
+      Weight.g(100).of(onion),
+    ])
+
     const burritos = new Recipe("Burritos", [
       Weight.g(20).of(oil),
       Weight.g(100).of(onion),
@@ -50,25 +107,89 @@ describe("example", () => {
       Weight.g(50).of(lettuce),
       Weight.g(400).of(beans),
       Weight.g(100).of(texturedSoy),
+    ]).divideBy(2)
+
+    const yogurtWithFruitAndProtein = new Recipe("Yogur con frutas y proteína", [
+      Weight.g(125).of(yogurt),
+      Weight.g(100).of(strawberries),
+      Weight.g(20).of(protein),
     ])
-    const porridge = new Recipe("Porridge", [
-      Weight.g(100).of(oats),
-      Weight.g(200).of(soyMilk),
-      Weight.g(30).of(protein),
-      Weight.oz(1).of(chocolate),
-      Weight.g(20).of(peanutButter),
-      Weight.g(100).of(banana),
+
+    const omelette = new Recipe("Tortilla", [
+      Weight.g(20).of(oil),
+      Weight.g(100).of(onion),
+      Weight.g(650).of(potato),
+      Weight.oneEgg().times(5).of(egg),
+    ]).divideBy(2)
+
+    const tuesday = new DayPlan([
+      [MealTime.BREAKFAST, Meal.with(toastsWithChickpeas)],
+      [MealTime.LUNCH, Meal.with(burritos, yogurtWithFruitAndProtein)],
+      [MealTime.DINNER, Meal.with(omelette)],
     ])
-    const scrambledEggs = new Recipe("Revuelto con verduras", [
-      Weight.g(63 * 3).of(egg),
-      Weight.g(100).of(mushroom),
+
+    const pseudoSalmon = new Recipe("Salmón Vegano con Patatas", [
+      Weight.g(10).of(oil),
+      Weight.g(400).of(tofu),
+      Weight.g(100).of(beet),
+      Weight.g(400).of(potato),
       Weight.g(100).of(tomato),
+    ]).divideBy(2)
+
+    const toastsWithTuna = new Recipe("Tostadas con atún", [
+      Weight.g(80).times(2).of(tuna),
+      Weight.g(200).of(speltBread),
+      Weight.g(100).of(tomato),
+      Weight.g(50).of(lettuce),
+    ]).divideBy(2)
+
+    const pancakes = new Recipe("Tortitas", [
+      Weight.oneEgg().times(1).of(egg),
+      Weight.g(200).of(banana),
+      Weight.g(40).of(protein),
+      Weight.g(10).of(oil),
+      Weight.g(120).of(oats),
+      Weight.g(50).of(peanutButter),
+      Weight.g(100).of(soyMilk),
+    ]).divideBy(2)
+
+    const wednesday = new DayPlan([
+      [MealTime.BREAKFAST, Meal.with(porridge)],
+      [MealTime.LUNCH, Meal.with(pseudoSalmon, yogurtWithFruitAndProtein)],
+      [MealTime.DINNER, Meal.with(toastsWithTuna)],
     ])
 
-    const dayMeal = DayMealBuilder.with().breakfast(porridge).lunch(hakeWithVegetables).dinner(scrambledEggs).build()
+    const quinoaWithChickpeas = new Recipe("Ensalada de Quinoa y Garbanzos", [
+      Weight.oneEgg().of(egg),
+      Weight.g(400).of(quinoa),
+      Weight.g(400).of(chickpeas),
+      Weight.g(100).of(pepper),
+    ]).divideBy(2)
 
-    const formatted = dayMeal.toTableFormat()
+    const hummus = new Recipe("Hummus con Tostadas de Espelta", [
+      Weight.oneEgg().of(egg),
+      Weight.g(20).of(oil),
+      Weight.g(400).of(chickpeas),
+    ]).divideBy(2)
 
-    console.log(formatted)
-  })
+    const hagridRocks = new Recipe("Rocas de Hagrid", [
+      Weight.g(220).of(harinaDeEspelta),
+      Weight.g(50).of(butter),
+      Weight.g(25).of(wallnut),
+      Weight.g(25).of(peanut),
+      Weight.g(50).of(panela),
+      Weight.g(60).of(protein),
+      Weight.oneEgg().of(egg),
+      Weight.g(20).of(soyMilk),
+    ])
+
+    const friday = new DayPlan([
+      [MealTime.LUNCH, Meal.with(quinoaWithChickpeas, yogurtWithFruitAndProtein)],
+      [MealTime.DINNER, Meal.with(hummus)],
+    ])
+
+    console.log(macros)
+
+    console.log(hagridRocks.toCsv())
+  }, 1000000)
 })

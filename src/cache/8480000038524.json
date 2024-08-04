@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8480000038524"
+  },
+  "name": "Guacamole",
+  "nutriments": {
+    "energy": {
+      "amount": 149
+    },
+    "macros": {
+      "proteins": {
+        "amount": 1.9
+      },
+      "carbs": {
+        "amount": 2
+      },
+      "fats": {
+        "amount": 13.7
+      }
+    }
+  }
+}

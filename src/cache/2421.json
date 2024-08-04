@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "2421"
+  },
+  "name": "Tomate",
+  "nutriments": {
+    "energy": {
+      "amount": 19
+    },
+    "macros": {
+      "proteins": {
+        "amount": 0.9
+      },
+      "carbs": {
+        "amount": 3.5
+      },
+      "fats": {
+        "amount": 0.308
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8480000094308"
+  },
+  "name": "Quinoa",
+  "nutriments": {
+    "energy": {
+      "amount": 389
+    },
+    "macros": {
+      "proteins": {
+        "amount": 14
+      },
+      "carbs": {
+        "amount": 66.05
+      },
+      "fats": {
+        "amount": 6.1
+      }
+    }
+  }
+}

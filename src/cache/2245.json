@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "2245"
+  },
+  "name": "Plátano",
+  "nutriments": {
+    "energy": {
+      "amount": 89
+    },
+    "macros": {
+      "proteins": {
+        "amount": 1.2
+      },
+      "carbs": {
+        "amount": 20
+      },
+      "fats": {
+        "amount": 0.24
+      }
+    }
+  }
+}

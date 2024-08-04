@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "2384"
+  },
+  "name": "Champiñon",
+  "nutriments": {
+    "energy": {
+      "amount": 26
+    },
+    "macros": {
+      "proteins": {
+        "amount": 1.8
+      },
+      "carbs": {
+        "amount": 4
+      },
+      "fats": {
+        "amount": 0.24000000000000002
+      }
+    }
+  }
+}

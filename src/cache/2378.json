@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "2378"
+  },
+  "name": "Calabaza, cruda",
+  "nutriments": {
+    "energy": {
+      "amount": 32
+    },
+    "macros": {
+      "proteins": {
+        "amount": 1.2
+      },
+      "carbs": {
+        "amount": 5.6
+      },
+      "fats": {
+        "amount": 0.33
+      }
+    }
+  }
+}

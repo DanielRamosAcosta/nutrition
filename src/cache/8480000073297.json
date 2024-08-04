@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8480000073297"
+  },
+  "name": "Soja texturizada fina",
+  "nutriments": {
+    "energy": {
+      "amount": 326
+    },
+    "macros": {
+      "proteins": {
+        "amount": 51
+      },
+      "carbs": {
+        "amount": 20
+      },
+      "fats": {
+        "amount": 1.3
+      }
+    }
+  }
+}

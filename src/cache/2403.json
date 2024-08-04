@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "2403"
+  },
+  "name": "Patata, cruda",
+  "nutriments": {
+    "energy": {
+      "amount": 72
+    },
+    "macros": {
+      "proteins": {
+        "amount": 2.2
+      },
+      "carbs": {
+        "amount": 15.2
+      },
+      "fats": {
+        "amount": 0.14
+      }
+    }
+  }
+}

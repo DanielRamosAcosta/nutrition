@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8480000260000"
+  },
+  "name": "Alubia roja",
+  "nutriments": {
+    "energy": {
+      "amount": 89
+    },
+    "macros": {
+      "proteins": {
+        "amount": 6.3
+      },
+      "carbs": {
+        "amount": 11.5
+      },
+      "fats": {
+        "amount": 0.4
+      }
+    }
+  }
+}

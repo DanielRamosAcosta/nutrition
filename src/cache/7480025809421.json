@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "7480025809421"
+  },
+  "name": "Tortitas integrales",
+  "nutriments": {
+    "energy": {
+      "amount": 288
+    },
+    "macros": {
+      "proteins": {
+        "amount": 9.5
+      },
+      "carbs": {
+        "amount": 45
+      },
+      "fats": {
+        "amount": 6.1999998092651
+      }
+    }
+  }
+}

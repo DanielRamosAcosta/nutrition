@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "5055534368107"
+  },
+  "name": "Vegan protein blend strawberry",
+  "nutriments": {
+    "energy": {
+      "amount": 330
+    },
+    "macros": {
+      "proteins": {
+        "amount": 74
+      },
+      "carbs": {
+        "amount": 5.8
+      },
+      "fats": {
+        "amount": 0.9
+      }
+    }
+  }
+}
