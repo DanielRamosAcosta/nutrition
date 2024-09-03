@@ -6,7 +6,11 @@ export class Weight {
     return a.add(b)
   }
 
-  constructor(private readonly amount: number) {}
+  constructor(private readonly amount: number) {
+    if (isNaN(amount)) {
+      throw new Error("Weight must be a number")
+    }
+  }
 
   static kg(amount: number) {
     return new Weight(amount * 1000)
@@ -85,5 +89,9 @@ export class Weight {
 
   greaterThan(weight: Weight) {
     return this.amount > weight.amount
+  }
+
+  minus(weight: Weight) {
+    return new Weight(this.amount - weight.amount)
   }
 }

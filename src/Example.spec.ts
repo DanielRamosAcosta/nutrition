@@ -10,11 +10,16 @@ import { MacronutrientsCalculator } from "./MacronutrientsCalculator.js"
 import { Sex } from "./Sex.js"
 import { ActivityLevel } from "./ActivityLevel.js"
 import { MainGoal } from "./MainGoal.js"
+import { Ingredient } from "./Ingredient.js"
+import { Nutriments } from "./Nutriments.js"
+import { Energy } from "./Energy.js"
+import { Macros } from "./Macros.js"
 
 describe("example", () => {
   it("example", async () => {
     const ingredients = new IngredientRepositoryMultiplexer()
 
+    const whiteBeans = await ingredients.findOrFail(new IngredientId("8480000260192"))
     const oats = await ingredients.findOrFail(new IngredientId("4008713756661"))
     const soyMilk = await ingredients.findOrFail(new IngredientId("8480000293220"))
     const chocolate = await ingredients.findOrFail(new IngredientId("8480000607225"))
@@ -50,8 +55,9 @@ describe("example", () => {
     const peanut = await ingredients.findOrFail(new IngredientId("2185"))
     const wallnut = await ingredients.findOrFail(new IngredientId("2201"))
     const panela = await ingredients.findOrFail(new IngredientId("8480000198594"))
+    const chickpeaFlour = await ingredients.findOrFail(new IngredientId("8480000290663"))
 
-    const macros = MacronutrientsCalculator.calculate(Sex.MALE, Weight.kg(90), ActivityLevel.MODERATE, MainGoal.LOST)
+    const macros = MacronutrientsCalculator.calculate(Sex.MALE, Weight.kg(89), ActivityLevel.LIGHT, MainGoal.LOST)
 
     const porridge = new Recipe("Porridge", [
       Weight.g(39).of(oats),
@@ -81,12 +87,6 @@ describe("example", () => {
       Weight.g(100).of(mushroom),
       Weight.g(100).of(tomato),
       Weight.g(100).of(speltBread),
-    ])
-
-    const monday = new DayPlan([
-      [MealTime.BREAKFAST, Meal.with(porridge)],
-      [MealTime.LUNCH, Meal.with(hakeWithVegetables, yogurtWithFruit)],
-      [MealTime.DINNER, Meal.with(scrambledEggs)],
     ])
 
     const toastsWithChickpeas = new Recipe("Tostadas con Garbanzos", [
@@ -121,12 +121,6 @@ describe("example", () => {
       Weight.g(650).of(potato),
       Weight.oneEgg().times(5).of(egg),
     ]).divideBy(2)
-
-    const tuesday = new DayPlan([
-      [MealTime.BREAKFAST, Meal.with(toastsWithChickpeas)],
-      [MealTime.LUNCH, Meal.with(burritos, yogurtWithFruitAndProtein)],
-      [MealTime.DINNER, Meal.with(omelette)],
-    ])
 
     const pseudoSalmon = new Recipe("Salmón Vegano con Patatas", [
       Weight.g(10).of(oil),
@@ -183,13 +177,65 @@ describe("example", () => {
       Weight.g(20).of(soyMilk),
     ])
 
-    const friday = new DayPlan([
-      [MealTime.LUNCH, Meal.with(quinoaWithChickpeas, yogurtWithFruitAndProtein)],
-      [MealTime.DINNER, Meal.with(hummus)],
+    const fries = new Recipe("Papas fritas", [Weight.g(10).of(oil), Weight.g(500).of(potato)]).divideBy(2)
+
+    const soyYogurtProtein = new Recipe("Yogur de soja con proteína", [
+      Weight.g(125).times(2).of(yogurt),
+      Weight.g(40).of(protein),
     ])
 
-    console.log(macros)
+    // https://www.directoalpaladar.com/recetas-vegetarianas/como-hacer-falafel-casero-receta-facil-y-deliciosa
+    const falafels = new Recipe("Falafels", [
+      Weight.g(500).of(chickpeas),
+      Weight.g(120).of(onion),
+      Weight.g(25).of(chickpeaFlour),
+      Weight.g(10).of(oil),
+    ]).divideBy(4)
 
-    console.log(hagridRocks.toCsv())
+    const monday = new DayPlan([
+      [MealTime.LUNCH, Meal.with(hakeWithVegetables, fries, soyYogurtProtein)],
+      [MealTime.DINNER, Meal.with(falafels, soyYogurtProtein)],
+    ])
+
+    const whiteBeansSalad = new Recipe("Alubias blancas", [
+      Weight.g(500).of(whiteBeans),
+      Weight.g(100).of(onion),
+      Weight.g(100).of(pepper),
+      Weight.g(10).of(oil),
+    ]).divideBy(2)
+
+    const tunaCreps = new Recipe("Creps de atún", [
+      Weight.oneEgg().times(1).of(egg),
+      Weight.g(100).of(harinaDeEspelta),
+      Weight.g(200).of(tuna),
+      Weight.g(100).of(tomato),
+      Weight.g(100).of(lettuce),
+      Weight.g(100).of(onion),
+    ]).divideBy(2)
+
+    const soyYogurt = new Ingredient(
+      new IngredientId("1"),
+      "Yogur de Soja",
+      new Nutriments(
+        Energy.kcal(43),
+        new Macros(
+          Weight.g(4.6), // proteins
+          Weight.g(0), // carbs
+          Weight.g(2.7), // fats
+        ),
+      ),
+    )
+
+    const tuesday = new DayPlan([
+      [MealTime.LUNCH, Meal.with(whiteBeansSalad, soyYogurtProtein)],
+      [MealTime.DINNER, Meal.with(tunaCreps, soyYogurtProtein)],
+    ])
+
+    const day = monday
+    const weight = Weight.g(230)
+    console.log("Carbos", soyYogurt.carbohydratesRelativeTo(weight).format())
+    console.log("Grasas", soyYogurt.fatsRelativeTo(weight).format())
+    console.log("Proteínas", soyYogurt.proteinsRelativeTo(weight).format())
+    console.log("Energía", soyYogurt.energyRelativeTo(weight).toKcalInNumber())
   }, 1000000)
 })

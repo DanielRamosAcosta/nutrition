@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8480000290663"
+  },
+  "name": "Harina de garbanzo",
+  "nutriments": {
+    "energy": {
+      "amount": 342
+    },
+    "macros": {
+      "proteins": {
+        "amount": 20.2
+      },
+      "carbs": {
+        "amount": 57
+      },
+      "fats": {
+        "amount": 6.5
+      }
+    }
+  }
+}

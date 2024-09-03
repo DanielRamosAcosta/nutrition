@@ -11,6 +11,18 @@ export class Macros {
     return new Macros(Weight.g(proteins), Weight.g(carbs), Weight.g(fats))
   }
 
+  proteinss() {
+    return this.proteins
+  }
+
+  carbohydratess() {
+    return this.carbs
+  }
+
+  fatss() {
+    return this.fats
+  }
+
   proteinsRelativeTo(weight: Weight) {
     return this.proteins.proportionFor(weight)
   }

@@ -1,0 +1,22 @@
+{
+  "id": {
+    "id": "8480000260192"
+  },
+  "name": "Alubia blanca",
+  "nutriments": {
+    "energy": {
+      "amount": 83
+    },
+    "macros": {
+      "proteins": {
+        "amount": 5.8
+      },
+      "carbs": {
+        "amount": 10.7
+      },
+      "fats": {
+        "amount": 0.4
+      }
+    }
+  }
+}
